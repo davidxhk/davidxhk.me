@@ -47,7 +47,7 @@ export default function RootLayout({
         "font-sans",
       )}
     >
-      <body className="min-h-dvh w-screen">{children}</body>
+      <body className="max-w-screen overflow-x-hidden">{children}</body>
     </html>
   )
 }
