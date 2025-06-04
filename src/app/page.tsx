@@ -64,7 +64,7 @@ greet();  // Hello world!
         Mythical Odyssey Official Payment Center
       </h3>
 
-      <div className="mb-8 flex h-48 snap-x snap-mandatory gap-2 overflow-x-auto">
+      <div className="mb-4 flex h-48 snap-x snap-mandatory gap-2 overflow-x-auto">
         {[
           "/mo/topup.avif",
           "/mo/topup-options.avif",
