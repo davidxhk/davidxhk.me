@@ -19,22 +19,7 @@ const eslintConfig = [
     ],
     plugins: ["prettier"],
     rules: {
-      "prettier/prettier": [
-        "warn",
-        {
-          semi: false,
-          singleQuote: false,
-          trailingComma: "all",
-          arrowParens: "always",
-          endOfLine: "lf",
-          plugins: ["prettier-plugin-tailwindcss"],
-          tailwindStylesheet: "./src/app/globals.css",
-          tailwindFunctions: ["cn"],
-        },
-        {
-          usePrettierrc: false,
-        },
-      ],
+      "prettier/prettier": "warn",
     },
   }),
 ]
