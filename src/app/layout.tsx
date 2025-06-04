@@ -27,7 +27,7 @@ const teko = Teko({
 })
 
 export const metadata: Metadata = {
-  title: "David Xie",
+  title: "David Xie | Full Stack Engineer",
   description: "My personal website",
 }
 
