@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-public-sans);
+  --font-mono: var(--font-jetbrains-mono);
+  --font-accent: var(--font-sofia-sans);
+  --font-headline: var(--font-teko);
+}
