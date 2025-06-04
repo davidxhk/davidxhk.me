@@ -2,11 +2,8 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "always"
   },
-  "editor.formatOnSave": true,
-  "editor.quickSuggestions": {
-    "strings": "on"
-  },
   "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "files.associations": {
