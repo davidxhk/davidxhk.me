@@ -5,7 +5,7 @@ import { JS_Code } from "@/lib/ui/js-code"
 
 export default function Home() {
   return (
-    <main className="container mx-auto min-h-dvh px-4">
+    <main className="container mx-auto my-4 min-h-dvh px-4">
       <h1 className="mt-8 mb-2 text-center font-headline text-6xl tracking-tight">
         Building better products for people
       </h1>
