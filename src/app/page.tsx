@@ -34,8 +34,8 @@ greet();  // Hello world!
       </h2>
 
       <p className="mb-2">
-        Since 2023, I’ve built products in spaces like mobile games and crypto,
-        from a{" "}
+        Since 2023, I’ve built products in spaces like mobile games and crypto
+        that have been used by thousands of people: from a{" "}
         <a
           href="https://mo.skyvanillagames.com/en/topup"
           target="_blank"
@@ -59,7 +59,7 @@ greet();  // Hello world!
             <ExternalIcon className="inline size-4 align-text-top" />
           </span>
         </a>
-        , that have been used by thousands of people.
+        .
       </p>
 
       <h3 className="mt-4 mb-2 font-headline text-2xl tracking-tight">
