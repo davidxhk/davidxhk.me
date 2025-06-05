@@ -187,8 +187,8 @@ greet();  // Hello world!
         This is just the beginning: more updates coming soon. Until next time!
       </p>
 
-      <small className="mt-8 mb-2 block font-light italic">
-        Last updated on <LocalTime unix={1749123670044} />
+      <small className="mt-8 mb-2 block font-light text-gray-500 italic">
+        Last updated on <LocalTime unix={1749133817596} />
       </small>
     </main>
   )
