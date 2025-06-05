@@ -13,14 +13,9 @@ export default function Home() {
 
       <h2 className="mt-8 mb-2 font-accent text-3xl font-light">About me</h2>
 
-      <p className="mb-2">
-        Hi there! I’m David, a full stack engineer based in Singapore. Welcome
-        to my personal corner of the web.
-      </p>
-
       <p className="mb-4">
-        This site’s a simple one, but it gives you a glimpse into who I am and
-        the kind of work I enjoy doing.
+        Hi there! I’m David, a full stack engineer based in Singapore. Welcome
+        to my personal corner of the web. I hope you’ll like it.
       </p>
 
       <JS_Code className="rounded-lg border border-gray-200 shadow-md">
