@@ -149,7 +149,7 @@ greet();  // Hello world!
 
       <blockquote
         cite="https://blog.samaltman.com/super-successful-companies"
-        className="mb-2 ml-2 border-l-2 border-gray-200 pl-4 font-accent font-light italic"
+        className="mx-2 mb-2 border-l-2 border-gray-200 px-4 font-accent font-light italic"
       >
         “Companies that grow up to be extremely successful... are obsessed with
         the quality of the product/experience.”
