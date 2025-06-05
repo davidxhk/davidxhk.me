@@ -15,7 +15,8 @@ export default function Home() {
 
       <p className="mb-4">
         Hi there! I’m David, a full stack engineer based in Singapore. Welcome
-        to my personal corner of the web. I hope you’ll like it.
+        to my personal corner of the web. It’s simple, but it shows who I am and
+        what I enjoy. Hope you like it!
       </p>
 
       <JS_Code className="rounded-lg border border-gray-200 shadow-md">
@@ -33,8 +34,8 @@ greet();  // Hello world!
       </h2>
 
       <p className="mb-2">
-        Since 2023, I’ve been building products in spaces like mobile games and
-        crypto, from a{" "}
+        Since 2023, I’ve built products in spaces like mobile games and crypto,
+        from a{" "}
         <Link
           href="https://mo.skyvanillagames.com/en/topup"
           target="_blank"
@@ -52,7 +53,7 @@ greet();  // Hello world!
           customer verification dashboard
           <ExternalIcon className="inline size-4 align-text-top" />
         </Link>
-        , that are used by thousands of people.
+        , that have been used by thousands of people.
       </p>
 
       <h3 className="mt-4 mb-2 font-headline text-2xl tracking-tight">
