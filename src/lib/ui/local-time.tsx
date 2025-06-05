@@ -10,10 +10,8 @@ export function LocalTime({
 
   useEffect(() => setTimeData(getTimeData(unix)), [unix])
 
-  console.log("render local time:", unix, datetime, timestamp)
-
   return (
-    <time dateTime={datetime} suppressHydrationWarning {...props}>
+    <time dateTime={datetime} {...props}>
       {timestamp}
     </time>
   )
