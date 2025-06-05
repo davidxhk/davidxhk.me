@@ -40,8 +40,11 @@ greet();  // Hello world!
           target="_blank"
           className="underline underline-offset-4"
         >
-          gaming web store
-          <ExternalIcon className="inline size-4 align-text-top" />
+          gaming web{" "}
+          <span className="whitespace-nowrap">
+            store
+            <ExternalIcon className="inline size-4 align-text-top" />
+          </span>
         </a>{" "}
         to a{" "}
         <a
@@ -49,8 +52,11 @@ greet();  // Hello world!
           target="_blank"
           className="underline underline-offset-4"
         >
-          customer verification dashboard
-          <ExternalIcon className="inline size-4 align-text-top" />
+          customer verification{" "}
+          <span className="whitespace-nowrap">
+            dashboard
+            <ExternalIcon className="inline size-4 align-text-top" />
+          </span>
         </a>
         , that have been used by thousands of people.
       </p>
@@ -128,7 +134,7 @@ greet();  // Hello world!
         <a
           href="https://www.linkedin.com/in/davidxhk"
           target="_blank"
-          className="underline underline-offset-4"
+          className="whitespace-nowrap underline underline-offset-4"
         >
           LinkedIn
           <ExternalIcon className="inline size-4 align-text-top" />
