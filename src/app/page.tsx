@@ -174,8 +174,16 @@ greet();  // Hello world!
         <strong>build better products for people.</strong>
       </p>
 
+      <h2 className="mt-8 mb-2 font-accent text-3xl font-light">What’s next</h2>
+
+      <p className="mb-4">
+        I’m always on the look out for new opportunities to build products that
+        solve real-world problems. This is just the beginning, and exciting
+        times are ahead. Until next time!
+      </p>
+
       <small className="mt-8 mb-2 block font-light italic">
-        Last updated on <LocalTime unix={1749113092259} />
+        Last updated on <LocalTime unix={1749115818615} />
       </small>
     </main>
   )
