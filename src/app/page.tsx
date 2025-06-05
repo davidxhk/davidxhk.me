@@ -98,7 +98,7 @@ greet();  // Hello world!
         BINGO on-Demand Customer Verification Dashboard
       </h3>
 
-      <div className="mb-8 grid snap-x snap-mandatory auto-cols-[80%] grid-flow-col gap-2 overflow-x-auto">
+      <div className="mb-4 grid snap-x snap-mandatory auto-cols-[80%] grid-flow-col gap-2 overflow-x-auto">
         {[
           "/bingo/register.avif",
           "/bingo/login.avif",
@@ -168,7 +168,7 @@ greet();  // Hello world!
         oyster”. I couldn’t have said it better myself.
       </p>
 
-      <p className="mb-8">
+      <p className="mb-2">
         I’m always on the lookout for new opportunities to build products that
         solve real-world problems. If you’d like a copy of my latest resume,
         please reach out to me on{" "}
@@ -183,7 +183,7 @@ greet();  // Hello world!
         . I’d be happy to have a chat.
       </p>
 
-      <p className="mb-4">
+      <p className="mb-2">
         This is just the beginning: more updates coming soon. Until next time!
       </p>
 
