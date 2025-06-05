@@ -130,19 +130,6 @@ greet();  // Hello world!
         <span className="font-accent font-light">Tailwind CSS</span>.
       </p>
 
-      <p className="mb-2">
-        If you’d like a copy of my latest resume, please reach out to me on{" "}
-        <a
-          href="https://www.linkedin.com/in/davidxhk"
-          target="_blank"
-          className="whitespace-nowrap underline underline-offset-4"
-        >
-          LinkedIn
-          <ExternalIcon className="inline size-4 align-text-top" />
-        </a>
-        . I’d be happy to have a chat.
-      </p>
-
       <h2 className="mt-8 mb-2 font-accent text-3xl font-light">
         My passion in tech
       </h2>
@@ -176,14 +163,32 @@ greet();  // Hello world!
 
       <h2 className="mt-8 mb-2 font-accent text-3xl font-light">What’s next</h2>
 
+      <p className="mb-2">
+        Someone once told me, “for full stack engineers, the web is their
+        oyster”. I couldn’t have said it better myself.
+      </p>
+
+      <p className="mb-8">
+        I’m always on the lookout for new opportunities to build products that
+        solve real-world problems. If you’d like a copy of my latest resume,
+        please reach out to me on{" "}
+        <a
+          href="https://www.linkedin.com/in/davidxhk"
+          target="_blank"
+          className="whitespace-nowrap underline underline-offset-4"
+        >
+          LinkedIn
+          <ExternalIcon className="inline size-4 align-text-top" />
+        </a>
+        . I’d be happy to have a chat.
+      </p>
+
       <p className="mb-4">
-        I’m always on the look out for new opportunities to build products that
-        solve real-world problems. This is just the beginning, and exciting
-        times are ahead. Until next time!
+        This is just the beginning: more updates coming soon. Until next time!
       </p>
 
       <small className="mt-8 mb-2 block font-light italic">
-        Last updated on <LocalTime unix={1749115818615} />
+        Last updated on <LocalTime unix={1749123670044} />
       </small>
     </main>
   )
