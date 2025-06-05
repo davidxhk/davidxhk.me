@@ -2,6 +2,7 @@ import Image from "next/image"
 
 import { ExternalIcon } from "@/lib/ui/icons/external-icon"
 import { JS_Code } from "@/lib/ui/js-code"
+import { LocalTime } from "@/lib/ui/local-time"
 
 export default function Home() {
   return (
@@ -172,6 +173,10 @@ greet();  // Hello world!
         new things. Ultimately, I’m driven by my mission to{" "}
         <strong>build better products for people.</strong>
       </p>
+
+      <small className="mt-8 mb-2 block font-light italic">
+        Last updated on <LocalTime unix={1749113092259} />
+      </small>
     </main>
   )
 }
