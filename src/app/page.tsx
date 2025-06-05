@@ -29,7 +29,7 @@ greet();  // Hello world!
       </JS_Code>
 
       <h2 className="mt-8 mb-2 font-accent text-3xl font-light">
-        Work experience
+        My work experience
       </h2>
 
       <p className="mb-2">
