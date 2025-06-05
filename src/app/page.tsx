@@ -1,5 +1,4 @@
 import Image from "next/image"
-import Link from "next/link"
 
 import { ExternalIcon } from "@/lib/ui/icons/external-icon"
 import { JS_Code } from "@/lib/ui/js-code"
@@ -36,23 +35,23 @@ greet();  // Hello world!
       <p className="mb-2">
         Since 2023, I’ve built products in spaces like mobile games and crypto,
         from a{" "}
-        <Link
+        <a
           href="https://mo.skyvanillagames.com/en/topup"
           target="_blank"
           className="underline underline-offset-4"
         >
           gaming web store
           <ExternalIcon className="inline size-4 align-text-top" />
-        </Link>{" "}
+        </a>{" "}
         to a{" "}
-        <Link
+        <a
           href="https://admin.bingo.parallelchain-lab.io"
           target="_blank"
           className="underline underline-offset-4"
         >
           customer verification dashboard
           <ExternalIcon className="inline size-4 align-text-top" />
-        </Link>
+        </a>
         , that have been used by thousands of people.
       </p>
 
