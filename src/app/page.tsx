@@ -114,6 +114,27 @@ greet();  // Hello world!
           />
         ))}
       </div>
+
+      <p className="mb-2">
+        While I have experience across the entire stack, I tend to gravitate
+        more towards the frontend. I work especially well with{" "}
+        <span className="font-accent font-light">Next.js</span>,{" "}
+        <span className="font-accent font-light">React</span>, and{" "}
+        <span className="font-accent font-light">Tailwind CSS</span>.
+      </p>
+
+      <p className="mb-2">
+        If you’d like a copy of my latest resume, please reach out to me on{" "}
+        <a
+          href="https://www.linkedin.com/in/davidxhk"
+          target="_blank"
+          className="underline underline-offset-4"
+        >
+          LinkedIn
+          <ExternalIcon className="inline size-4 align-text-top" />
+        </a>
+        . I’d be happy to have a chat.
+      </p>
     </main>
   )
 }
