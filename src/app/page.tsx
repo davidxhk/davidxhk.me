@@ -162,8 +162,8 @@ greet();  // Hello world!
       <p className="mb-2">
         My interest in web building has led me to join various tech communities
         in Singapore. Through these events and meetups, I’ve been able to meet
-        like-minded people, gain exposure to real-world projects, and constantly
-        learn new things. Ultimately, I’m driven by my mission to{" "}
+        like-minded people, gain exposure to real-world projects, and learn many
+        new things. Ultimately, I’m driven by my mission to{" "}
         <strong>build better products for people.</strong>
       </p>
     </main>
