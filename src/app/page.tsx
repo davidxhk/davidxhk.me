@@ -135,6 +135,37 @@ greet();  // Hello world!
         </a>
         . I’d be happy to have a chat.
       </p>
+
+      <h2 className="mt-8 mb-2 font-accent text-3xl font-light">
+        My passion in tech
+      </h2>
+
+      <p className="mb-4">
+        In spite of its difficulty, I truly enjoy building for the web. I take
+        pride in crafting elegant and intuitive user interfaces. It highly
+        appeals to my visual-kinesthetic side, and empowers me to build great
+        products for people.
+      </p>
+
+      <blockquote
+        cite="https://blog.samaltman.com/super-successful-companies"
+        className="mb-2 ml-2 border-l-2 border-gray-200 pl-4 font-accent font-light italic"
+      >
+        “Companies that grow up to be extremely successful... are obsessed with
+        the quality of the product/experience.”
+      </blockquote>
+
+      <p className="mb-4">
+        ― Sam Altman, <cite>Super successful companies</cite>
+      </p>
+
+      <p className="mb-2">
+        My interest in web building has led me to join various tech communities
+        in Singapore. Through these events and meetups, I’ve been able to meet
+        like-minded people, gain exposure to real-world projects, and constantly
+        learn new things. Ultimately, I’m driven by my mission to{" "}
+        <strong>build better products for people.</strong>
+      </p>
     </main>
   )
 }
