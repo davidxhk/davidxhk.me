@@ -34,7 +34,7 @@ greet();  // Hello world!
         My work experience
       </h2>
 
-      <p className="mb-2">
+      <p className="mb-4">
         Since 2023, I’ve built products in spaces like mobile games and crypto
         that have been used by thousands of people: from a{" "}
         <Link
@@ -53,49 +53,41 @@ greet();  // Hello world!
         .
       </p>
 
-      <h3 className="mt-4 mb-2 font-headline text-2xl tracking-tight">
-        Mythical Odyssey
-      </h3>
-
-      <div className="group relative mb-4 overflow-hidden rounded-lg border border-gray-200 shadow-md">
-        <Image
-          src="/mo/topup.avif"
-          alt=""
-          width={1920}
-          height={911}
-          className="-z-1 object-cover transition-all group-hover:scale-105 group-hover:blur-sm max-sm:blur-sm max-sm:group-active:scale-105 max-sm:group-active:blur-none"
-        />
-
+      <div className="mb-4 flex flex-wrap gap-4">
         <Link
           href="/work/mythical-odyssey"
-          className="absolute inset-0 flex items-center justify-center"
+          className="group relative flex w-96 max-w-full flex-col overflow-hidden rounded-md border border-gray-200 shadow-md"
         >
-          <span className="text-center font-accent text-xl font-light text-transparent blur-sm transition-all group-hover:text-black group-hover:blur-none max-sm:text-black max-sm:blur-none max-sm:group-active:text-transparent max-sm:group-active:blur-sm">
-            Mythical Odyssey Official Payment Center
-          </span>
+          <Image
+            src="/mo/topup.avif"
+            alt=""
+            width={1920}
+            height={911}
+            draggable={false}
+            className="object-cover transition-all select-none group-hover:scale-105 group-active:scale-105"
+          />
+
+          <p className="absolute inset-x-0 bottom-0 px-3 py-4 font-headline text-2xl tracking-tight backdrop-blur-xs backdrop:bg-white">
+            Mythical Odyssey
+          </p>
         </Link>
-      </div>
-
-      <h3 className="mt-4 mb-2 font-headline text-2xl tracking-tight">
-        BINGO on-Demand
-      </h3>
-
-      <div className="group relative mb-4 overflow-hidden rounded-lg border border-gray-200 shadow-md">
-        <Image
-          src="/bingo/project-list.avif"
-          alt=""
-          width={1920}
-          height={911}
-          className="-z-1 object-cover transition-all group-hover:scale-105 group-hover:blur-sm max-sm:blur-sm max-sm:group-active:scale-105 max-sm:group-active:blur-none"
-        />
 
         <Link
           href="/work/bingo-on-demand"
-          className="absolute inset-0 flex items-center justify-center"
+          className="group relative flex w-96 max-w-full flex-col overflow-hidden rounded-md border border-gray-200 shadow-md"
         >
-          <span className="text-center font-accent text-xl font-light text-transparent blur-sm transition-all group-hover:text-black group-hover:blur-none max-sm:text-black max-sm:blur-none max-sm:group-active:text-transparent max-sm:group-active:blur-sm">
-            BINGO on-Demand Customer Verification Dashboard
-          </span>
+          <Image
+            src="/bingo/project-list.avif"
+            alt=""
+            width={1920}
+            height={911}
+            draggable={false}
+            className="object-cover transition-all select-none group-hover:scale-105 group-active:scale-105"
+          />
+
+          <p className="absolute inset-x-0 bottom-0 px-3 py-4 font-headline text-2xl tracking-tight backdrop-blur-xs backdrop:bg-white">
+            BINGO on-Demand
+          </p>
         </Link>
       </div>
 
