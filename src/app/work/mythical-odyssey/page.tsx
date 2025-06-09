@@ -14,6 +14,18 @@ export default function MythicalOdysseyPage() {
         Mythical Odyssey Official Payment Center
       </h1>
 
+      <div className="mb-4 flex items-center justify-center gap-1">
+        <small className="rounded-full bg-amber-200 px-2 py-px font-accent font-light">
+          Next.js
+        </small>
+        <small className="rounded-full bg-emerald-200 px-2 py-px font-accent font-light">
+          React
+        </small>
+        <small className="rounded-full bg-cyan-200 px-2 py-px font-accent font-light">
+          Tailwind CSS
+        </small>
+      </div>
+
       <p className="mb-2">
         More information will be added in the near future. Meanwhile, check out
         some screenshots below:
@@ -46,7 +58,8 @@ export default function MythicalOdysseyPage() {
             alt=""
             width={1920}
             height={911}
-            className="snap-center snap-always rounded-lg border border-gray-200 shadow-md"
+            draggable={false}
+            className="snap-center snap-always rounded-lg border border-gray-200 shadow-md select-none"
           />
         ))}
       </div>
