@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 import { ExternalIcon } from "@/lib/ui/icons/external-icon"
 import { JS_Code } from "@/lib/ui/js-code"
@@ -36,90 +37,66 @@ greet();  // Hello world!
       <p className="mb-2">
         Since 2023, I’ve built products in spaces like mobile games and crypto
         that have been used by thousands of people: from a{" "}
-        <a
-          href="https://mo.skyvanillagames.com/en/topup"
-          target="_blank"
+        <Link
+          href="/work/mythical-odyssey"
           className="underline underline-offset-4"
         >
-          gaming web{" "}
-          <span className="whitespace-nowrap">
-            store
-            <ExternalIcon className="inline size-4 align-text-top" />
-          </span>
-        </a>{" "}
+          gaming web store
+        </Link>{" "}
         to a{" "}
-        <a
-          href="https://admin.bingo.parallelchain-lab.io"
-          target="_blank"
+        <Link
+          href="/work/bingo-on-demand"
           className="underline underline-offset-4"
         >
-          customer verification{" "}
-          <span className="whitespace-nowrap">
-            dashboard
-            <ExternalIcon className="inline size-4 align-text-top" />
-          </span>
-        </a>
+          customer verification dashboard
+        </Link>
         .
       </p>
 
       <h3 className="mt-4 mb-2 font-headline text-2xl tracking-tight">
-        Mythical Odyssey Official Payment Center
+        Mythical Odyssey
       </h3>
 
-      <div className="mb-4 grid snap-x snap-mandatory auto-cols-[80%] grid-flow-col gap-2 overflow-x-auto">
-        {[
-          "/mo/topup.avif",
-          "/mo/topup-options.avif",
-          "/mo/terms-and-conditions.avif",
-          "/mo/topup-footer.avif",
-          "/mo/region-select.avif",
-          "/mo/lang-select.avif",
-          "/mo/login.avif",
-          "/mo/select-character.avif",
-          "/mo/product.avif",
-          "/mo/purchase.avif",
-          "/mo/order-created.avif",
-          "/mo/order-completed.avif",
-          "/mo/nav-menu.avif",
-          "/mo/topup-history.avif",
-        ].map((path, i) => (
-          <Image
-            key={i}
-            src={path}
-            alt=""
-            width={1920}
-            height={911}
-            className="snap-center snap-always rounded-lg border border-gray-200 shadow-md"
-          />
-        ))}
+      <div className="group relative mb-4 overflow-hidden rounded-lg border border-gray-200 shadow-md">
+        <Image
+          src="/mo/topup.avif"
+          alt=""
+          width={1920}
+          height={911}
+          className="-z-1 object-cover transition-all group-hover:scale-105 group-hover:blur-sm max-sm:blur-sm max-sm:group-active:scale-105 max-sm:group-active:blur-none"
+        />
+
+        <Link
+          href="/work/mythical-odyssey"
+          className="absolute inset-0 flex items-center justify-center"
+        >
+          <span className="text-center font-accent text-xl font-light text-transparent blur-sm transition-all group-hover:text-black group-hover:blur-none max-sm:text-black max-sm:blur-none max-sm:group-active:text-transparent max-sm:group-active:blur-sm">
+            Mythical Odyssey Official Payment Center
+          </span>
+        </Link>
       </div>
 
       <h3 className="mt-4 mb-2 font-headline text-2xl tracking-tight">
-        BINGO on-Demand Customer Verification Dashboard
+        BINGO on-Demand
       </h3>
 
-      <div className="mb-4 grid snap-x snap-mandatory auto-cols-[80%] grid-flow-col gap-2 overflow-x-auto">
-        {[
-          "/bingo/register.avif",
-          "/bingo/login.avif",
-          "/bingo/project-list.avif",
-          "/bingo/project.avif",
-          "/bingo/create-new-project.avif",
-          "/bingo/send-unique-invite.avif",
-          "/bingo/account.avif",
-          "/bingo/billing-history.avif",
-          "/bingo/team.avif",
-          "/bingo/invite-template.avif",
-        ].map((path, i) => (
-          <Image
-            key={i}
-            src={path}
-            alt=""
-            width={1920}
-            height={911}
-            className="snap-center snap-always rounded-lg border border-gray-200 shadow-md"
-          />
-        ))}
+      <div className="group relative mb-4 overflow-hidden rounded-lg border border-gray-200 shadow-md">
+        <Image
+          src="/bingo/project-list.avif"
+          alt=""
+          width={1920}
+          height={911}
+          className="-z-1 object-cover transition-all group-hover:scale-105 group-hover:blur-sm max-sm:blur-sm max-sm:group-active:scale-105 max-sm:group-active:blur-none"
+        />
+
+        <Link
+          href="/work/bingo-on-demand"
+          className="absolute inset-0 flex items-center justify-center"
+        >
+          <span className="text-center font-accent text-xl font-light text-transparent blur-sm transition-all group-hover:text-black group-hover:blur-none max-sm:text-black max-sm:blur-none max-sm:group-active:text-transparent max-sm:group-active:blur-sm">
+            Bingo on-Demand Customer Verification Dashboard
+          </span>
+        </Link>
       </div>
 
       <p className="mb-2">
