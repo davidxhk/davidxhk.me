@@ -1,28 +1,25 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useIsClient } from "../hooks/use-is-client"
 
 export function LocalTime({
   unix,
   ...props
 }: React.ComponentProps<"time"> & { unix: number }) {
-  const [{ datetime, timestamp }, setTimeData] = useState(getTimeData(unix))
+  const isClient = useIsClient()
+  if (!isClient) {
+    return null
+  }
 
-  useEffect(() => setTimeData(getTimeData(unix)), [unix])
+  const date = new Date(unix)
+  const datetime = toDateTimeString(date)
+  const timestamp = formatDate(date)
 
   return (
     <time dateTime={datetime} {...props}>
       {timestamp}
     </time>
   )
-}
-
-function getTimeData(unix: number) {
-  const date = new Date(unix)
-  return {
-    datetime: toDateTimeString(date),
-    timestamp: formatDate(date),
-  }
 }
 
 function toDateTimeString(date: Date) {
