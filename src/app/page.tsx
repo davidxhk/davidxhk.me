@@ -39,14 +39,14 @@ greet();  // Hello world!
         that have been used by thousands of people: from a{" "}
         <Link
           href="/work/mythical-odyssey"
-          className="underline underline-offset-4"
+          className="text-[revert] underline-offset-4 hover:underline active:underline"
         >
           gaming web store
         </Link>{" "}
         to a{" "}
         <Link
           href="/work/bingo-on-demand"
-          className="underline underline-offset-4"
+          className="text-[revert] underline-offset-4 hover:underline active:underline"
         >
           customer verification dashboard
         </Link>
@@ -152,7 +152,7 @@ greet();  // Hello world!
         <a
           href="https://www.linkedin.com/in/davidxhk"
           target="_blank"
-          className="whitespace-nowrap underline underline-offset-4"
+          className="whitespace-nowrap text-[revert] underline-offset-4 hover:underline active:underline"
         >
           LinkedIn
           <ExternalIcon className="inline size-4 align-text-top" />
