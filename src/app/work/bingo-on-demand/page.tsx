@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 import Image from "next/image"
 
 export const metadata: Metadata = {
-  title: "Bingo on-Demand | David Xie",
+  title: "BINGO on-Demand | David Xie",
   description: "My work on the BINGO on-Demand Customer Verification Dashboard",
 }
 

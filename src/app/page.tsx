@@ -94,7 +94,7 @@ greet();  // Hello world!
           className="absolute inset-0 flex items-center justify-center"
         >
           <span className="text-center font-accent text-xl font-light text-transparent blur-sm transition-all group-hover:text-black group-hover:blur-none max-sm:text-black max-sm:blur-none max-sm:group-active:text-transparent max-sm:group-active:blur-sm">
-            Bingo on-Demand Customer Verification Dashboard
+            BINGO on-Demand Customer Verification Dashboard
           </span>
         </Link>
       </div>
