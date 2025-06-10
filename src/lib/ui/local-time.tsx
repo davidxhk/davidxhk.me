@@ -6,20 +6,25 @@ export function LocalTime({
   unix,
   ...props
 }: React.ComponentProps<"time"> & { unix: number }) {
+  const date = new Date(unix)
+
   const isClient = useIsClient()
   if (!isClient) {
-    return null
+    // To prevent hydration errors
+    setUTC(date)
   }
 
-  const date = new Date(unix)
-  const datetime = toDateTimeString(date)
-  const timestamp = formatDate(date)
-
   return (
-    <time dateTime={datetime} {...props}>
-      {timestamp}
+    <time dateTime={toDateTimeString(date)} {...props}>
+      {formatDate(date)}
     </time>
   )
+}
+
+function setUTC(date: Date) {
+  const time = date.getTime()
+  const utcOffset = date.getTimezoneOffset() * 60000
+  date.setTime(time + utcOffset)
 }
 
 function toDateTimeString(date: Date) {
