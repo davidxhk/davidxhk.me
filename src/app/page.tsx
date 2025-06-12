@@ -7,19 +7,12 @@ import { LocalTime } from "@/lib/ui/local-time"
 export default function Home() {
   return (
     <>
-      <header className="relative container mx-auto">
-        <Image
-          src="/pexels-sora-shimazaki-5926383.avif"
-          alt=""
-          width={3920}
-          height={2205}
-          draggable={false}
-          className="w-full object-contain select-none"
-        />
-
-        <h1 className="absolute inset-x-0 bottom-0 py-8 text-center font-headline text-6xl tracking-tight text-white backdrop-blur-xs backdrop:bg-white">
-          Building better products for people
-        </h1>
+      <header className="bg-gradient-to-bl from-rose-600 via-orange-300 to-teal-600">
+        <div className="flex size-full min-h-80 items-end justify-center bg-gradient-to-b from-transparent from-50% to-white px-4 py-8 backdrop-blur-xs">
+          <h1 className="font-headline text-6xl tracking-tight text-shadow-md text-shadow-white">
+            Building better products for people
+          </h1>
+        </div>
       </header>
 
       <main className="container mx-auto px-4">
@@ -57,7 +50,7 @@ export default function Home() {
         <div className="mb-4 flex flex-wrap gap-4">
           <Link
             href="/work/mythical-odyssey"
-            className="group relative w-96 max-w-full overflow-hidden rounded-md border border-gray-200 shadow-sm transition-all active:shadow-xs"
+            className="group relative w-96 max-w-full overflow-hidden rounded-md border border-gray-200 shadow-sm transition-all active:translate-y-px active:shadow-xs"
           >
             <Image
               src="/mo/topup.avif"
@@ -68,14 +61,14 @@ export default function Home() {
               className="object-cover transition-all select-none group-hover:scale-105 group-active:scale-105"
             />
 
-            <p className="absolute inset-x-0 bottom-0 px-3 py-4 font-headline text-2xl tracking-tight backdrop-blur-xs backdrop:bg-white">
+            <p className="absolute inset-x-0 bottom-0 bg-white/50 px-3 py-4 font-headline text-2xl tracking-tight backdrop-blur-xs text-shadow-md text-shadow-white">
               Mythical Odyssey
             </p>
           </Link>
 
           <Link
             href="/work/bingo-on-demand"
-            className="group relative w-96 max-w-full overflow-hidden rounded-md border border-gray-200 shadow-sm transition-all active:shadow-xs"
+            className="group relative w-96 max-w-full overflow-hidden rounded-md border border-gray-200 shadow-sm transition-all active:translate-y-px active:shadow-xs"
           >
             <Image
               src="/bingo/project-list.avif"
@@ -86,7 +79,7 @@ export default function Home() {
               className="object-cover transition-all select-none group-hover:scale-105 group-active:scale-105"
             />
 
-            <p className="absolute inset-x-0 bottom-0 px-3 py-4 font-headline text-2xl tracking-tight backdrop-blur-xs backdrop:bg-white">
+            <p className="absolute inset-x-0 bottom-0 bg-white/50 px-3 py-4 font-headline text-2xl tracking-tight backdrop-blur-xs text-shadow-md text-shadow-white">
               BINGO on-Demand
             </p>
           </Link>

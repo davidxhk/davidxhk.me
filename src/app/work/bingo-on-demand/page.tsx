@@ -13,19 +13,12 @@ export const metadata: Metadata = {
 export default function BingoOnDemandPage() {
   return (
     <>
-      <header className="relative container mx-auto">
-        <Image
-          src="/bingo/project-list.avif"
-          alt=""
-          width={1920}
-          height={911}
-          draggable={false}
-          className="w-full object-contain select-none"
-        />
-
-        <h1 className="absolute inset-x-0 bottom-0 py-8 text-center font-headline text-6xl tracking-tight backdrop-blur-xs backdrop:bg-white">
-          BINGO on-Demand
-        </h1>
+      <header className="bg-[url(/bingo/banner.avif)] bg-cover bg-center bg-no-repeat 2xl:bg-contain">
+        <div className="flex size-full min-h-80 items-end justify-center bg-gradient-to-b from-transparent from-50% to-white px-4 py-8 backdrop-blur-xs">
+          <h1 className="font-headline text-6xl tracking-tight text-shadow-md text-shadow-white">
+            BINGO on-Demand
+          </h1>
+        </div>
       </header>
 
       <main className="container mx-auto px-4">
