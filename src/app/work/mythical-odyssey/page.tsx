@@ -14,38 +14,30 @@ export const metadata: Metadata = {
 export default function MythicalOdysseyPage() {
   return (
     <>
-      <header className="bg-[url(/mo/banner.avif)] bg-cover bg-center bg-no-repeat 2xl:bg-contain">
+      <header className="mb-8 bg-[url(/mo/banner.avif)] bg-cover bg-center bg-no-repeat 2xl:bg-contain">
         <div className="flex size-full min-h-80 flex-col items-center justify-end gap-1 bg-gradient-to-b from-transparent from-50% to-white px-6 py-8 backdrop-blur-xs">
           <h1 className="font-headline text-6xl tracking-tight text-shadow-md text-shadow-white">
             Mythical Odyssey
           </h1>
 
-          <small className="flex flex-wrap gap-[inherit] text-gray-500">
-            <span className="font-light whitespace-nowrap">
-              <i>Created on </i>
-              <Time
-                unix={1749447021315}
-                className="font-normal"
-                dateStyle="medium"
-              />
-              .
+          <div className="flex flex-wrap gap-[inherit] text-sm text-gray-500">
+            <span className="whitespace-nowrap">
+              <span className="font-light italic">Created on </span>
+              <Time unix={1749447021315} dateStyle="medium" />
+              <span className="font-light">.</span>
             </span>
-            <span className="font-light whitespace-nowrap">
-              <i>Last updated on </i>
-              <Time
-                unix={1749550830330}
-                className="font-normal"
-                dateStyle="medium"
-                timeStyle="short"
-              />
-              .
+
+            <span className="whitespace-nowrap">
+              <span className="font-light italic">Last updated on </span>
+              <Time unix={1749550830330} dateStyle="medium" timeStyle="short" />
+              <span className="font-light">.</span>
             </span>
-          </small>
+          </div>
         </div>
       </header>
 
-      <main className="mx-auto my-8 w-full max-w-3xl px-6">
-        <p className="my-2">
+      <main className="mx-auto mb-8 w-full max-w-3xl px-6">
+        <p className="mb-2">
           <a
             href="https://mo.skyvanillagames.com"
             target="_blank"
@@ -61,7 +53,7 @@ export default function MythicalOdysseyPage() {
           at in 2025.
         </p>
 
-        <p className="my-2">
+        <p className="mb-2">
           At the time, the game was just released, and the company wanted to
           reduce in-app purchases fees. Hence, I was tasked with building a web
           store for the game.
@@ -72,55 +64,89 @@ export default function MythicalOdysseyPage() {
         </h2>
 
         <ul>
-          <li className="my-2 ml-2 list-inside list-disc">
+          <li className="mb-2 ml-2 list-inside list-disc">
             The web store needed strong SEO and performance to maximize traffic.
           </li>
 
-          <li className="my-2 ml-2 list-inside list-disc">
+          <li className="mb-2 ml-2 list-inside list-disc">
             It also needed a smooth, user-friendly payment flow to minimize
             friction and boost success rates.
           </li>
 
-          <li className="my-2 ml-2 list-inside list-disc">
+          <li className="mb-2 ml-2 list-inside list-disc">
             It had to support players from different regions with
             region-specific languages.
           </li>
 
-          <li className="my-2 ml-2 list-inside list-disc">
+          <li className="mb-2 ml-2 list-inside list-disc">
             It needed to let players login using email or third-party
             authentication.
           </li>
 
-          <li className="my-2 ml-2 list-inside list-disc">
+          <li className="mb-2 ml-2 list-inside list-disc">
             It also required a custom two-step login for players to sign in and
             choose their character.
           </li>
 
-          <li className="my-2 ml-2 list-inside list-disc">
+          <li className="mb-2 ml-2 list-inside list-disc">
             It had to be secure to protect players’ login credentials and
             account data.
           </li>
 
-          <li className="my-2 ml-2 list-inside list-disc">
+          <li className="mb-2 ml-2 list-inside list-disc">
             It also had to hide the backend URL to protect internal game
             servers.
           </li>
 
-          <li className="my-2 ml-2 list-inside list-disc">
+          <li className="mb-2 ml-2 list-inside list-disc">
             It needed to allow the web admin to easily configure products and
             other content.
           </li>
         </ul>
 
+        <h2 className="mt-8 mb-4 font-accent text-3xl font-light">
+          Tech stack
+        </h2>
+
+        <div className="mb-2 flex flex-wrap items-center gap-x-1 gap-y-2 p-2">
+          <span className="rounded-full bg-amber-200 px-2 py-px font-accent text-sm font-light">
+            Next.js
+          </span>
+
+          <span className="rounded-full bg-lime-200 px-2 py-px font-accent text-sm font-light">
+            React
+          </span>
+
+          <span className="rounded-full bg-emerald-200 px-2 py-px font-accent text-sm font-light">
+            Tailwind CSS
+          </span>
+
+          <span className="rounded-full bg-cyan-200 px-2 py-px font-accent text-sm font-light">
+            NextAuth
+          </span>
+
+          <span className="rounded-full bg-blue-200 px-2 py-px font-accent text-sm font-light">
+            next-intl
+          </span>
+
+          <span className="rounded-full bg-fuchsia-200 px-2 py-px font-accent text-sm font-light">
+            nuqs
+          </span>
+
+          <span className="rounded-full bg-rose-200 px-2 py-px font-accent text-sm font-light">
+            Payload CMS
+          </span>
+        </div>
+
         <h2 className="mt-8 mb-4 font-accent text-3xl font-light">Showcase</h2>
 
         <MediaBoundary query="(max-width: 40rem) and (orientation: portrait)">
-          <small className="my-2 block font-light text-gray-500 italic sm:w-2">
+          <p className="mb-2 font-accent font-light text-gray-500 italic">
             Switch to landscape mode for a better experience.
-          </small>
+          </p>
         </MediaBoundary>
 
-        <div className="my-4 grid snap-x snap-mandatory auto-cols-[80%] grid-flow-col gap-2 overflow-x-auto">
+        <div className="mb-2 grid snap-x snap-mandatory auto-cols-[80%] grid-flow-col gap-3 overflow-x-auto p-2">
           {[
             "/mo/topup.avif",
             "/mo/topup-options.avif",
@@ -144,46 +170,12 @@ export default function MythicalOdysseyPage() {
               width={1920}
               height={911}
               draggable={false}
-              className="snap-center snap-always rounded-lg border border-gray-200 shadow-md select-none"
+              className="snap-center snap-always rounded-lg border border-slate-800 shadow-md select-none"
             />
           ))}
         </div>
 
-        <h2 className="mt-8 mb-4 font-accent text-3xl font-light">
-          Tech stack
-        </h2>
-
-        <div className="my-4 flex flex-wrap items-center gap-1 p-2">
-          <small className="rounded-full bg-amber-200 px-2 py-px font-accent font-light">
-            Next.js
-          </small>
-
-          <small className="rounded-full bg-lime-200 px-2 py-px font-accent font-light">
-            React
-          </small>
-
-          <small className="rounded-full bg-emerald-200 px-2 py-px font-accent font-light">
-            Tailwind CSS
-          </small>
-
-          <small className="rounded-full bg-cyan-200 px-2 py-px font-accent font-light">
-            NextAuth
-          </small>
-
-          <small className="rounded-full bg-blue-200 px-2 py-px font-accent font-light">
-            next-intl
-          </small>
-
-          <small className="rounded-full bg-fuchsia-200 px-2 py-px font-accent font-light">
-            nuqs
-          </small>
-
-          <small className="rounded-full bg-rose-200 px-2 py-px font-accent font-light">
-            Payload CMS
-          </small>
-        </div>
-
-        <p className="mt-8 mb-4">
+        <p className="mt-8 mb-4 font-accent font-light text-gray-500 italic">
           More information will be added in the near future. Stay tuned!
         </p>
       </main>

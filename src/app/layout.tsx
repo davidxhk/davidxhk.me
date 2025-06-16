@@ -52,7 +52,7 @@ export default function RootLayout({
     >
       <body className="min-h-dvh max-w-screen overflow-x-hidden overflow-y-auto">
         {children}
-        <footer className="bg-gradient-to-r from-rose-200 via-stone-300 to-violet-800">
+        <footer className="bg-gradient-to-br from-rose-200 via-stone-300 to-violet-800">
           <div className="bg-gradient-to-b from-white to-transparent to-50% backdrop-blur-xs">
             <div className="mx-auto w-full max-w-3xl px-6 py-8">
               <Image
@@ -60,12 +60,16 @@ export default function RootLayout({
                 src="https://gravatar.com/avatar/e20e63322ebf71cc9cc83eb082510d52c1e5d97dfb5a017dfe7125e9195600fe?s=400"
                 width={400}
                 height={400}
-                className="mb-4 size-40 rounded-full border border-slate-800"
+                className="size-40 rounded-full border border-slate-800"
               />
 
-              <h2 className="mb-2 font-headline text-4xl tracking-tight text-shadow-sm text-shadow-white">
+              <h2 className="mt-4 mb-2 font-headline text-4xl tracking-tight text-shadow-sm text-shadow-white">
                 David Xie Han Keong
               </h2>
+
+              <p className="mb-4 font-accent font-light text-slate-600 italic text-shadow-white text-shadow-xs">
+                Building better web products for people
+              </p>
 
               <nav className="flex items-center gap-4 p-2">
                 <a

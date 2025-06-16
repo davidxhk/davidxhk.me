@@ -7,38 +7,30 @@ import { Time } from "@/lib/ui/time"
 export default function Home() {
   return (
     <>
-      <header className="bg-gradient-to-br from-teal-600 via-orange-300 to-rose-600">
+      <header className="mb-8 bg-gradient-to-br from-teal-600 via-orange-300 to-rose-600">
         <div className="flex size-full min-h-80 flex-col items-center justify-end gap-1 bg-gradient-to-b from-transparent from-50% to-white px-6 py-8 backdrop-blur-xs">
           <h1 className="font-headline text-6xl tracking-tight text-shadow-md text-shadow-white">
             Building better web products for people
           </h1>
 
-          <small className="flex flex-wrap gap-[inherit] text-gray-500">
-            <span className="font-light whitespace-nowrap">
-              <i>Created on </i>
-              <Time
-                unix={1749019230400}
-                className="font-normal"
-                dateStyle="medium"
-              />
-              .
+          <div className="flex flex-wrap gap-[inherit] text-sm text-gray-500">
+            <span className="whitespace-nowrap">
+              <span className="font-light italic">Created on </span>
+              <Time unix={1749019230400} dateStyle="medium" />
+              <span className="font-light">.</span>
             </span>
-            <span className="font-light whitespace-nowrap">
-              <i>Last updated on </i>
-              <Time
-                unix={1750055407144}
-                className="font-normal"
-                dateStyle="medium"
-                timeStyle="short"
-              />
-              .
+
+            <span className="whitespace-nowrap">
+              <span className="font-light italic">Last updated on </span>
+              <Time unix={1750055407144} dateStyle="medium" timeStyle="short" />
+              <span className="font-light">.</span>
             </span>
-          </small>
+          </div>
         </div>
       </header>
 
-      <main className="mx-auto my-8 w-full max-w-3xl px-6">
-        <p className="my-2">
+      <main className="mx-auto mb-8 w-full max-w-3xl px-6">
+        <p className="mb-2">
           Hi there! I’m David, a frontend-focused full stack engineer based in
           Singapore. Welcome to my personal corner of the web. It’s simple, but
           it shows who I am and what I enjoy. Hope you like it!
@@ -48,7 +40,7 @@ export default function Home() {
           My work experience
         </h2>
 
-        <p className="my-2">
+        <p className="mb-2">
           Since 2023, I’ve built web apps in spaces like mobile games and crypto
           that have been used by thousands of people: from a{" "}
           <Link
@@ -67,10 +59,10 @@ export default function Home() {
           .
         </p>
 
-        <div className="my-2 flex flex-wrap gap-4 p-2">
+        <div className="mb-2 flex flex-wrap gap-4 p-2">
           <Link
             href="/work/mythical-odyssey"
-            className="group relative w-full max-w-84 overflow-hidden rounded-md border border-gray-200 shadow-sm transition-all active:translate-y-px active:shadow-xs"
+            className="group relative w-full max-w-84 overflow-hidden rounded-md border border-slate-800 shadow-sm transition-all active:translate-y-px active:shadow-xs"
           >
             <Image
               src="/mo/topup.avif"
@@ -88,7 +80,7 @@ export default function Home() {
 
           <Link
             href="/work/bingo-on-demand"
-            className="group relative w-full max-w-84 overflow-hidden rounded-md border border-gray-200 shadow-sm transition-all active:translate-y-px active:shadow-xs"
+            className="group relative w-full max-w-84 overflow-hidden rounded-md border border-slate-800 shadow-sm transition-all active:translate-y-px active:shadow-xs"
           >
             <Image
               src="/bingo/project-list.avif"
@@ -105,7 +97,7 @@ export default function Home() {
           </Link>
         </div>
 
-        <p className="my-2">
+        <p className="mb-2">
           While I have experience across the entire stack, I tend to gravitate
           more towards the frontend. I work especially well with <b>Next.js</b>,{" "}
           <b>React</b>, and <b>Tailwind CSS</b>.
@@ -115,27 +107,27 @@ export default function Home() {
           My passion in tech
         </h2>
 
-        <p className="my-2">
+        <p className="mb-2">
           In spite of its difficulty, I truly enjoy building for the web. It
           highly appeals to my visual-kinesthetic side, and I take pride in
           crafting elegant and intuitive user interfaces that just work.
         </p>
 
-        <div className="my-2 p-2">
+        <div className="mb-2 p-2">
           <blockquote
             cite="https://blog.samaltman.com/super-successful-companies"
-            className="border-l-2 border-gray-200 px-4 font-accent font-light italic"
+            className="mb-2 border-l-2 border-gray-200 px-4 font-accent font-light italic"
           >
             “Companies that grow up to be extremely successful... are obsessed
             with the quality of the product/experience.”
           </blockquote>
 
-          <p className="my-2">
+          <p>
             ― Sam Altman, <cite>Super successful companies</cite>
           </p>
         </div>
 
-        <p className="my-2">
+        <p className="mb-2">
           My interest in web building has led me to join various tech
           communities in Singapore. Through these events and meetups, I’ve been
           able to meet like-minded people, gain exposure to real-world projects,
@@ -147,7 +139,7 @@ export default function Home() {
           What’s next
         </h2>
 
-        <p className="my-2">
+        <p className="mb-2">
           I’m always on the lookout to embark on new projects that solve
           real-world problems. If you’d like a copy of my latest resume, please
           reach out to me on{" "}
