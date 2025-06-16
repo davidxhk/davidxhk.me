@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 
 import Image from "next/image"
 
-import { LocalTime } from "@/lib/ui/local-time"
+import { Time } from "@/lib/ui/time"
 import { MediaBoundary } from "@/lib/ui/media-boundary"
 
 export const metadata: Metadata = {
@@ -14,23 +14,45 @@ export default function BingoOnDemandPage() {
   return (
     <>
       <header className="bg-[url(/bingo/banner.avif)] bg-cover bg-center bg-no-repeat 2xl:bg-contain">
-        <div className="flex size-full min-h-80 items-end justify-center bg-gradient-to-b from-transparent from-50% to-white px-4 py-8 backdrop-blur-xs">
+        <div className="flex size-full min-h-80 flex-col items-center justify-end gap-1 bg-gradient-to-b from-transparent from-50% to-white px-6 py-8 backdrop-blur-xs">
           <h1 className="font-headline text-6xl tracking-tight text-shadow-md text-shadow-white">
             BINGO on-Demand
           </h1>
+
+          <small className="flex flex-wrap gap-[inherit] text-gray-500">
+            <span className="font-light whitespace-nowrap">
+              <i>Created on </i>
+              <Time
+                unix={1749447021315}
+                className="font-normal"
+                dateStyle="medium"
+              />
+              .
+            </span>
+            <span className="font-light whitespace-nowrap">
+              <i>Last updated on </i>
+              <Time
+                unix={1749550686643}
+                className="font-normal"
+                dateStyle="medium"
+                timeStyle="short"
+              />
+              .
+            </span>
+          </small>
         </div>
       </header>
 
-      <main className="container mx-auto px-4">
-        <h2 className="mt-8 mb-2 font-accent text-3xl font-light">Showcase</h2>
+      <main className="mx-auto my-8 w-full max-w-3xl px-6">
+        <h2 className="mt-8 mb-4 font-accent text-3xl font-light">Showcase</h2>
 
         <MediaBoundary query="(max-width: 40rem) and (orientation: portrait)">
-          <small className="mb-2 block font-light text-gray-500 italic sm:w-2">
+          <small className="my-2 block font-light text-gray-500 italic sm:w-2">
             Switch to landscape mode for a better experience.
           </small>
         </MediaBoundary>
 
-        <div className="mb-4 grid snap-x snap-mandatory auto-cols-[80%] grid-flow-col gap-2 overflow-x-auto">
+        <div className="my-4 grid snap-x snap-mandatory auto-cols-[80%] grid-flow-col gap-2 overflow-x-auto">
           {[
             "/bingo/register.avif",
             "/bingo/login.avif",
@@ -55,17 +77,10 @@ export default function BingoOnDemandPage() {
           ))}
         </div>
 
-        <p className="mb-4">
+        <p className="mt-8 mb-4">
           More information will be added in the near future. Stay tuned!
         </p>
       </main>
-
-      <footer className="container mx-auto">
-        <small className="block px-4 py-3 text-right font-light text-gray-500 italic">
-          Last updated on <LocalTime unix={1749550686643} /> by{" "}
-          <strong className="whitespace-nowrap">David Xie Han Keong</strong>
-        </small>
-      </footer>
     </>
   )
 }
