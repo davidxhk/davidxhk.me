@@ -5,15 +5,17 @@ interface TimeProps extends Intl.DateTimeFormatOptions {
 }
 
 const DEFAULT_LOCALE = "en-sg"
+const DEFAULT_TIMEZONE = "Asia/Singapore"
 
 export function Time({
   unix,
   className,
   locale = DEFAULT_LOCALE,
+  timeZone = DEFAULT_TIMEZONE,
   ...options
 }: TimeProps) {
   const date = new Date(unix)
-  const formatter = new Intl.DateTimeFormat(locale, options)
+  const formatter = new Intl.DateTimeFormat(locale, { timeZone, ...options })
 
   return (
     <time
