@@ -108,35 +108,35 @@ export default function MythicalOdysseyPage() {
           Tech stack
         </h2>
 
-        <div className="mb-2 flex flex-wrap items-center gap-x-1 gap-y-2 p-2">
-          <span className="rounded-full bg-amber-200 px-2 py-px font-accent text-sm font-light">
+        <ul className="mb-2 flex flex-wrap items-center gap-x-1 gap-y-2 p-2">
+          <li className="rounded-full bg-amber-200 px-2 py-px font-accent text-sm font-light">
             Next.js
-          </span>
+          </li>
 
-          <span className="rounded-full bg-lime-200 px-2 py-px font-accent text-sm font-light">
+          <li className="rounded-full bg-lime-200 px-2 py-px font-accent text-sm font-light">
             React
-          </span>
+          </li>
 
-          <span className="rounded-full bg-emerald-200 px-2 py-px font-accent text-sm font-light">
+          <li className="rounded-full bg-emerald-200 px-2 py-px font-accent text-sm font-light">
             Tailwind CSS
-          </span>
+          </li>
 
-          <span className="rounded-full bg-cyan-200 px-2 py-px font-accent text-sm font-light">
+          <li className="rounded-full bg-cyan-200 px-2 py-px font-accent text-sm font-light">
             NextAuth
-          </span>
+          </li>
 
-          <span className="rounded-full bg-blue-200 px-2 py-px font-accent text-sm font-light">
+          <li className="rounded-full bg-blue-200 px-2 py-px font-accent text-sm font-light">
             next-intl
-          </span>
+          </li>
 
-          <span className="rounded-full bg-fuchsia-200 px-2 py-px font-accent text-sm font-light">
+          <li className="rounded-full bg-fuchsia-200 px-2 py-px font-accent text-sm font-light">
             nuqs
-          </span>
+          </li>
 
-          <span className="rounded-full bg-rose-200 px-2 py-px font-accent text-sm font-light">
+          <li className="rounded-full bg-rose-200 px-2 py-px font-accent text-sm font-light">
             Payload CMS
-          </span>
-        </div>
+          </li>
+        </ul>
 
         <h2 className="mt-8 mb-4 font-accent text-3xl font-light">Showcase</h2>
 
