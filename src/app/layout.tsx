@@ -52,7 +52,7 @@ export default function RootLayout({
     >
       <body className="min-h-dvh max-w-screen overflow-x-hidden overflow-y-auto">
         {children}
-        <footer className="bg-gradient-to-br from-rose-200 via-stone-300 to-violet-800">
+        <footer className="bg-gradient-to-br from-amber-100 via-emerald-200 to-cyan-500">
           <div className="bg-gradient-to-b from-white to-transparent to-50% backdrop-blur-xs">
             <div className="mx-auto w-full max-w-3xl px-6 py-8">
               <Image
