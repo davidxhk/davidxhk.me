@@ -11,14 +11,13 @@ export default function Home() {
         title="Building better web products for people"
         className="mb-8 bg-gradient-to-br from-teal-600 via-orange-300 to-rose-600"
         created={1749019230400}
-        lastUpdated={1750055407144}
+        lastUpdated={1750150264614}
       />
 
       <main className="mx-auto mb-8 w-full max-w-3xl px-6">
         <p className="mb-2">
           Hi there! I’m David, a frontend-focused full stack engineer based in
-          Singapore. Welcome to my personal corner of the web. It’s simple, but
-          it shows who I am and what I enjoy. Hope you like it!
+          Singapore. Welcome to my personal corner of the web!
         </p>
 
         <h2 className="mt-8 mb-4 font-accent text-3xl font-light">
