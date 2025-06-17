@@ -41,7 +41,7 @@ export default function MythicalOdysseyPage() {
           <a
             href="https://mo.skyvanillagames.com"
             target="_blank"
-            className="whitespace-nowrap text-[revert] underline-offset-4 hover:underline active:underline"
+            className="whitespace-nowrap text-indigo-600 underline-offset-4 visited:text-violet-600 hover:underline active:text-rose-600 active:underline"
           >
             Mythical{" "}
             <span className="whitespace-nowrap">
