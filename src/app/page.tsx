@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 
+import { Separator } from "@/lib/separator"
 import { Header } from "@/lib/ui/header"
 import { ExternalIcon } from "@/lib/ui/icons/external-icon"
 
@@ -19,6 +20,8 @@ export default function Home() {
           Hi there! I’m David, a frontend-focused full stack engineer based in
           Singapore. Welcome to my personal corner of the web!
         </p>
+
+        <Separator />
 
         <h2 className="mt-8 mb-4 font-accent text-3xl font-light">
           My work experience
@@ -118,6 +121,8 @@ export default function Home() {
           and learn many new things. Ultimately, I’m driven by my mission to{" "}
           <b>build better web products for people.</b>
         </p>
+
+        <Separator />
 
         <h2 className="mt-8 mb-4 font-accent text-3xl font-light">
           What’s next
