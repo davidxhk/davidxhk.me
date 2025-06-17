@@ -2,8 +2,8 @@ import type { Metadata } from "next"
 
 import Image from "next/image"
 
+import { Header } from "@/lib/ui/header"
 import { ExternalIcon } from "@/lib/ui/icons/external-icon"
-import { Time } from "@/lib/ui/time"
 import { MediaBoundary } from "@/lib/ui/media-boundary"
 
 export const metadata: Metadata = {
@@ -14,33 +14,12 @@ export const metadata: Metadata = {
 export default function MythicalOdysseyPage() {
   return (
     <>
-      <header className="mb-8 bg-[url(/mo/banner.avif)] bg-cover bg-center bg-no-repeat 2xl:bg-contain">
-        <div className="bg-gradient-to-b from-transparent from-50% to-white backdrop-blur-xs">
-          <div className="mx-auto flex min-h-80 w-full max-w-3xl flex-col items-center justify-end gap-1 px-6 py-8">
-            <h1 className="font-headline text-6xl tracking-tight text-shadow-md text-shadow-white">
-              Mythical Odyssey
-            </h1>
-
-            <div className="flex flex-wrap gap-[inherit] text-sm text-gray-500">
-              <span className="whitespace-nowrap">
-                <span className="font-light italic">Created on </span>
-                <Time unix={1749447021315} dateStyle="medium" />
-                <span className="font-light">.</span>
-              </span>
-
-              <span className="whitespace-nowrap">
-                <span className="font-light italic">Last updated on </span>
-                <Time
-                  unix={1749550830330}
-                  dateStyle="medium"
-                  timeStyle="short"
-                />
-                <span className="font-light">.</span>
-              </span>
-            </div>
-          </div>
-        </div>
-      </header>
+      <Header
+        title="Mythical Odyssey"
+        className="mb-8 bg-[url(/mo/banner.avif)] bg-cover bg-center bg-no-repeat 2xl:bg-contain"
+        created={1749447021315}
+        lastUpdated={1749550830330}
+      />
 
       <main className="mx-auto mb-8 w-full max-w-3xl px-6">
         <p className="mb-2">

@@ -1,39 +1,18 @@
 import Image from "next/image"
 import Link from "next/link"
 
+import { Header } from "@/lib/ui/header"
 import { ExternalIcon } from "@/lib/ui/icons/external-icon"
-import { Time } from "@/lib/ui/time"
 
 export default function Home() {
   return (
     <>
-      <header className="mb-8 bg-gradient-to-br from-teal-600 via-orange-300 to-rose-600">
-        <div className="bg-gradient-to-b from-transparent from-50% to-white backdrop-blur-xs">
-          <div className="mx-auto flex min-h-80 w-full max-w-3xl flex-col items-center justify-end gap-1 px-6 py-8">
-            <h1 className="font-headline text-6xl tracking-tight text-shadow-md text-shadow-white">
-              Building better web products for people
-            </h1>
-
-            <div className="flex flex-wrap gap-[inherit] text-sm text-gray-500">
-              <span className="whitespace-nowrap">
-                <span className="font-light italic">Created on </span>
-                <Time unix={1749019230400} dateStyle="medium" />
-                <span className="font-light">.</span>
-              </span>
-
-              <span className="whitespace-nowrap">
-                <span className="font-light italic">Last updated on </span>
-                <Time
-                  unix={1750055407144}
-                  dateStyle="medium"
-                  timeStyle="short"
-                />
-                <span className="font-light">.</span>
-              </span>
-            </div>
-          </div>
-        </div>
-      </header>
+      <Header
+        title="Building better web products for people"
+        className="mb-8 bg-gradient-to-br from-teal-600 via-orange-300 to-rose-600"
+        created={1749019230400}
+        lastUpdated={1750055407144}
+      />
 
       <main className="mx-auto mb-8 w-full max-w-3xl px-6">
         <p className="mb-2">
