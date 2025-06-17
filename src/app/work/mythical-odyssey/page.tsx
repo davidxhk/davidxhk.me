@@ -63,46 +63,46 @@ export default function MythicalOdysseyPage() {
           Requirements
         </h2>
 
-        <ul>
-          <li className="mb-2 ml-2 list-inside list-disc">
+        <ol>
+          <li className="mb-2 ml-2 list-inside list-decimal">
             The web store needed strong SEO and performance to maximize traffic.
           </li>
 
-          <li className="mb-2 ml-2 list-inside list-disc">
-            It also needed a smooth, user-friendly payment flow to minimize
-            friction and boost success rates.
+          <li className="mb-2 ml-2 list-inside list-decimal">
+            It needed a smooth, user-friendly payment flow to minimize friction
+            and boost success rates.
           </li>
 
-          <li className="mb-2 ml-2 list-inside list-disc">
+          <li className="mb-2 ml-2 list-inside list-decimal">
             It had to support players from different regions with
             region-specific languages.
           </li>
 
-          <li className="mb-2 ml-2 list-inside list-disc">
+          <li className="mb-2 ml-2 list-inside list-decimal">
             It needed to let players login using email or third-party
             authentication.
           </li>
 
-          <li className="mb-2 ml-2 list-inside list-disc">
+          <li className="mb-2 ml-2 list-inside list-decimal">
             It also required a custom two-step login for players to sign in and
             choose their character.
           </li>
 
-          <li className="mb-2 ml-2 list-inside list-disc">
+          <li className="mb-2 ml-2 list-inside list-decimal">
             It had to be secure to protect players’ login credentials and
             account data.
           </li>
 
-          <li className="mb-2 ml-2 list-inside list-disc">
+          <li className="mb-2 ml-2 list-inside list-decimal">
             It also had to hide the backend URL to protect internal game
             servers.
           </li>
 
-          <li className="mb-2 ml-2 list-inside list-disc">
+          <li className="mb-2 ml-2 list-inside list-decimal">
             It needed to allow the web admin to easily configure products and
             other content.
           </li>
-        </ul>
+        </ol>
 
         <h2 className="mt-8 mb-4 font-accent text-3xl font-light">
           Tech stack
