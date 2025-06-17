@@ -55,13 +55,19 @@ export default function RootLayout({
         <footer className="bg-gradient-to-br from-amber-100 via-emerald-200 to-cyan-500">
           <div className="bg-gradient-to-b from-white to-transparent to-50% backdrop-blur-xs">
             <div className="mx-auto w-full max-w-3xl px-6 py-8">
-              <Image
-                alt="My gravatar picture"
-                src="https://gravatar.com/avatar/e20e63322ebf71cc9cc83eb082510d52c1e5d97dfb5a017dfe7125e9195600fe?s=400"
-                width={400}
-                height={400}
-                className="size-40 rounded-full border border-slate-800"
-              />
+              <a
+                href="https://gravatar.com/davidxhk"
+                target="_blank"
+                className="inline-block"
+              >
+                <Image
+                  alt="My avatar"
+                  src="https://gravatar.com/avatar/e20e63322ebf71cc9cc83eb082510d52c1e5d97dfb5a017dfe7125e9195600fe?s=400"
+                  width={400}
+                  height={400}
+                  className="size-40 rounded-full border border-slate-800"
+                />
+              </a>
 
               <h2 className="mt-4 mb-2 font-headline text-4xl tracking-tight text-shadow-sm text-shadow-white">
                 David Xie Han Keong
