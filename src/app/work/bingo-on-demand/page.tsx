@@ -4,6 +4,7 @@ import Image from "next/image"
 
 import { Header } from "@/lib/ui/header"
 import { MediaBoundary } from "@/lib/ui/media-boundary"
+import { Separator } from "@/lib/separator"
 
 export const metadata: Metadata = {
   title: "BINGO on-Demand | David Xie",
@@ -53,6 +54,8 @@ export default function BingoOnDemandPage() {
             />
           ))}
         </div>
+
+        <Separator />
 
         <p className="mt-8 mb-4 font-accent font-light text-gray-500 italic">
           More information will be added in the near future. Stay tuned!
