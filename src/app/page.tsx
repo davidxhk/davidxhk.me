@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 
-import { Separator } from "@/lib/separator"
+import { Separator } from "@/lib/ui/separator"
 import { Header } from "@/lib/ui/header"
 import { ExternalIcon } from "@/lib/ui/icons/external-icon"
 

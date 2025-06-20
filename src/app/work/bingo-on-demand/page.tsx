@@ -4,7 +4,7 @@ import Image from "next/image"
 
 import { Header } from "@/lib/ui/header"
 import { MediaBoundary } from "@/lib/ui/media-boundary"
-import { Separator } from "@/lib/separator"
+import { Separator } from "@/lib/ui/separator"
 
 export const metadata: Metadata = {
   title: "BINGO on-Demand | David Xie",
