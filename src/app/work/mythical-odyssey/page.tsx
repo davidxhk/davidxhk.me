@@ -2,10 +2,10 @@ import type { Metadata } from "next"
 
 import Image from "next/image"
 
-import { Separator } from "@/lib/ui/separator"
 import { Header } from "@/lib/ui/header"
 import { ExternalIcon } from "@/lib/ui/icons/external-icon"
 import { MediaBoundary } from "@/lib/ui/media-boundary"
+import { Separator } from "@/lib/ui/separator"
 
 export const metadata: Metadata = {
   title: "Mythical Odyssey | David Xie",
@@ -19,7 +19,7 @@ export default function MythicalOdysseyPage() {
         title="Mythical Odyssey"
         className="mb-8 bg-[url(/mo/banner.avif)] bg-cover bg-center bg-no-repeat 2xl:bg-contain"
         created={1749447021315}
-        lastUpdated={1750154311340}
+        lastUpdated={1750432769351}
       />
 
       <main className="mx-auto mb-8 w-full max-w-3xl px-6">
@@ -41,11 +41,8 @@ export default function MythicalOdysseyPage() {
 
         <p className="mb-2">
           At the time, the game was just released, and the company wanted to
-          bypass in-app purchase fees.
-        </p>
-
-        <p className="mb-2">
-          As the web frontend engineer, I was tasked to build a{" "}
+          bypass in-app purchase fees. As the web frontend engineer, I was
+          tasked to build a{" "}
           <a
             href="https://mo.skyvanillagames.com/topup"
             target="_blank"
@@ -63,19 +60,57 @@ export default function MythicalOdysseyPage() {
         <Separator />
 
         <h2 className="mt-8 mb-4 font-accent text-3xl font-light">
-          Requirements
+          Defining product goals
         </h2>
 
-        <ol className="mb-2 ml-8 list-decimal">
+        <p className="mb-2">
+          To start off, I asked the question, “what is the happy path of the web
+          store?” It can be a useful way to identify functional requirements.
+          After discussion, I came up with a flowchart to illustrate the happy
+          path.
+        </p>
+
+        <figure className="mt-12 mb-8">
+          <div className="relative left-1/2 mb-1 w-dvw -translate-x-1/2 px-8">
+            <div className="flex justify-center-safe overflow-x-auto">
+              <div className="h-32 flex-none">
+                <Image
+                  alt=""
+                  src="/mo/happy-path.svg"
+                  width={0}
+                  height={0}
+                  draggable={false}
+                  className="h-full w-auto object-cover select-none"
+                />
+              </div>
+            </div>
+          </div>
+          <figcaption className="text-center font-accent text-sm font-light text-gray-500 italic">
+            Figure 1: Diagram showing the happy path of the web store
+          </figcaption>
+        </figure>
+
+        <p className="mb-2">
+          From the happy path, I identified two core flows: the login flow and
+          the purchase flow. These key features served as starting points for
+          further discussions to define all the functional requirements of the
+          web store.
+        </p>
+
+        <h3 className="mt-8 mb-4 font-accent text-2xl font-light">
+          Functional requirements
+        </h3>
+
+        <ol className="mb-8 ml-10 list-decimal">
           <li className="mb-2">Player can view all products</li>
 
           <li className="mb-2">Player can view product information</li>
 
-          <li className="mb-2">Player can view terms and conditions</li>
+          <li className="mb-2">Player can view terms of purchase</li>
 
           <li className="mb-2">
             Player can switch between 17 different locales, covering
-            <ol className="mb-2 ml-8 list-[lower-alpha]">
+            <ol className="mb-2 list-inside list-[lower-alpha]">
               <li className="mb-2">12 regions</li>
               <li className="mb-2">4 languages</li>
             </ol>
@@ -83,7 +118,7 @@ export default function MythicalOdysseyPage() {
 
           <li className="mb-2">
             Player can sign in to their in-game character, involving
-            <ol className="mb-2 ml-8 list-[lower-alpha]">
+            <ol className="mb-2 list-inside list-[lower-alpha]">
               <li className="mb-2">Email or third-party account login</li>
               <li className="mb-2">In-game character selection</li>
             </ol>
@@ -119,11 +154,18 @@ export default function MythicalOdysseyPage() {
           <li className="mb-2">Admin can configure store content easily</li>
         </ol>
 
-        <h2 className="mt-8 mb-4 font-accent text-3xl font-light">
-          Non-functional reqs
-        </h2>
+        <p className="mb-2">
+          Next, I asked, “what are some nice-to-haves?”, “what should be
+          optimised?”, and “what security considerations are there?” These
+          questions helped me to understand the company’s product goals, and
+          identify the non-functional requirements of the web store.
+        </p>
 
-        <ol className="mb-2 ml-8 list-decimal">
+        <h3 className="mt-8 mb-4 font-accent text-2xl font-light">
+          Non-functional requirements
+        </h3>
+
+        <ol className="mb-8 ml-10 list-decimal">
           <li className="mb-2">
             Strong <abbr title="search engine optimization">SEO</abbr> and web
             performance
@@ -135,7 +177,7 @@ export default function MythicalOdysseyPage() {
 
           <li className="mb-2">
             Privacy and security, including
-            <ol className="mb-2 ml-8 list-[lower-alpha]">
+            <ol className="mb-2 list-inside list-[lower-alpha]">
               <li className="mb-2">Not leaking player credentials</li>
               <li className="mb-2">Not exposing the backend URL</li>
             </ol>
@@ -186,7 +228,7 @@ export default function MythicalOdysseyPage() {
           </p>
         </MediaBoundary>
 
-        <div className="mb-2 grid snap-x snap-mandatory auto-cols-[80%] grid-flow-col gap-3 overflow-x-auto p-2">
+        <div className="mb-2 grid min-h-24 snap-x snap-mandatory auto-cols-[80%] grid-flow-col gap-3 overflow-x-auto p-2">
           {[
             "/mo/topup.avif",
             "/mo/topup-options.avif",
@@ -210,6 +252,7 @@ export default function MythicalOdysseyPage() {
               width={1920}
               height={911}
               draggable={false}
+              priority={i === 0}
               className="snap-center snap-always rounded-lg border border-slate-800 shadow-md select-none"
             />
           ))}
