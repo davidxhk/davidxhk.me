@@ -7,7 +7,7 @@ import { useCallback, useMemo, useSyncExternalStore } from "react"
  * @param defaultValue The default value for server-side rendering (default: false)
  * @returns Whether the media query matches
  */
-export function useMatchMedia(query: string, defaultValue = false) {
+export function useMatchMedia(query: string, defaultValue = false): boolean {
   const media = useMemo(() => {
     if (typeof window !== "undefined") {
       return window.matchMedia(query)
