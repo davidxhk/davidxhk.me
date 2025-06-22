@@ -16,17 +16,17 @@ export default function Home() {
       />
 
       <main className="mx-auto mb-8 w-full max-w-3xl px-6">
-        <p className="mb-2">
+        <p className="mb-6">
           Hi there! I’m David, a frontend-focused full stack engineer based in
           Singapore. Welcome to my personal corner of the web!
         </p>
 
-        <p className="mb-2">
+        <p className="mb-6">
           I built this website by hand to showcase my work experience and share
           my knowledge with the world.
         </p>
 
-        <p className="mb-2">
+        <p className="mb-6">
           Thanks for visiting, and I hope I can teach you something new today!
         </p>
 
@@ -36,7 +36,7 @@ export default function Home() {
           My work experience
         </h2>
 
-        <p className="mb-2">
+        <p className="mb-6">
           Since 2023, I’ve built web apps in spaces like mobile games and crypto
           that have been used by thousands of people: from a{" "}
           <Link
@@ -55,7 +55,7 @@ export default function Home() {
           .
         </p>
 
-        <div className="mb-2 flex flex-wrap gap-4 p-2">
+        <div className="mb-6 flex flex-wrap gap-4 p-2">
           <Link
             href="/work/mythical-odyssey"
             className="group relative w-full max-w-84 overflow-hidden rounded-md border border-slate-800 shadow-sm transition-all active:translate-y-px active:shadow-xs"
@@ -93,7 +93,7 @@ export default function Home() {
           </Link>
         </div>
 
-        <p className="mb-2">
+        <p className="mb-6">
           While I have experience across the entire stack, I tend to gravitate
           more towards the frontend. I work especially well with <b>Next.js</b>,{" "}
           <b>React</b>, and <b>Tailwind CSS</b>.
@@ -103,13 +103,13 @@ export default function Home() {
           My passion in tech
         </h2>
 
-        <p className="mb-2">
+        <p className="mb-6">
           In spite of its difficulty, I truly enjoy building for the web. It
           highly appeals to my visual-kinesthetic side, and I take pride in
           crafting elegant and intuitive user interfaces that just work.
         </p>
 
-        <div className="mb-2 p-2">
+        <div className="mb-6 p-2">
           <blockquote
             cite="https://blog.samaltman.com/super-successful-companies"
             className="mb-2 border-l-2 border-gray-200 px-4 font-accent font-light italic"
@@ -123,7 +123,7 @@ export default function Home() {
           </p>
         </div>
 
-        <p className="mb-2">
+        <p className="mb-6">
           My interest in web building has led me to join various tech
           communities in Singapore. Through these events and meetups, I’ve been
           able to meet like-minded people, gain exposure to real-world projects,
@@ -137,7 +137,7 @@ export default function Home() {
           What’s next
         </h2>
 
-        <p className="mb-2">
+        <p className="mb-6">
           I’m always on the lookout to embark on new projects that solve
           real-world problems. If you’d like a copy of my latest resume, please
           reach out to me on{" "}

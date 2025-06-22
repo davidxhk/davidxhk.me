@@ -23,7 +23,7 @@ export default function MythicalOdysseyPage() {
       />
 
       <main className="mx-auto mb-8 w-full max-w-3xl px-6">
-        <p className="mb-2">
+        <p className="mb-6">
           <a
             href="https://mo.skyvanillagames.com"
             target="_blank"
@@ -39,7 +39,7 @@ export default function MythicalOdysseyPage() {
           in 2025.
         </p>
 
-        <p className="mb-2">
+        <p className="mb-6">
           At the time, the game was just released, and the company wanted to
           bypass in-app purchase fees. As the web frontend engineer, I was
           tasked to build a{" "}
@@ -63,14 +63,14 @@ export default function MythicalOdysseyPage() {
           Defining product goals
         </h2>
 
-        <p className="mb-2">
+        <p className="mb-6">
           To start off, I asked the question, “what is the happy path of the web
           store?” It can be a useful way to identify functional requirements.
           After discussion, I came up with a flowchart to illustrate the happy
           path.
         </p>
 
-        <figure className="mt-12 mb-8">
+        <figure className="mb-6">
           <div className="relative left-1/2 mb-1 w-dvw -translate-x-1/2 px-8">
             <div className="flex justify-center-safe overflow-x-auto">
               <div className="h-32 flex-none">
@@ -90,7 +90,7 @@ export default function MythicalOdysseyPage() {
           </figcaption>
         </figure>
 
-        <p className="mb-2">
+        <p className="mb-6">
           From the happy path, I identified two core flows: the login flow and
           the purchase flow. These key features served as starting points for
           further discussions to define all the functional requirements of the
@@ -101,7 +101,7 @@ export default function MythicalOdysseyPage() {
           Functional requirements
         </h3>
 
-        <ol className="mb-8 ml-10 list-decimal">
+        <ol className="mb-6 ml-10 list-decimal">
           <li className="mb-2">Player can view all products</li>
 
           <li className="mb-2">Player can view product information</li>
@@ -154,7 +154,7 @@ export default function MythicalOdysseyPage() {
           <li className="mb-2">Admin can configure store content easily</li>
         </ol>
 
-        <p className="mb-2">
+        <p className="mb-6">
           Next, I asked, “what are some nice-to-haves?”, “what should be
           optimised?”, and “what security considerations are there?” These
           questions helped me to understand the company’s product goals, and
@@ -165,7 +165,7 @@ export default function MythicalOdysseyPage() {
           Non-functional requirements
         </h3>
 
-        <ol className="mb-8 ml-10 list-decimal">
+        <ol className="mb-6 ml-10 list-decimal">
           <li className="mb-2">
             Strong <abbr title="search engine optimization">SEO</abbr> and web
             performance
@@ -190,7 +190,7 @@ export default function MythicalOdysseyPage() {
           Tech stack
         </h2>
 
-        <ul className="mb-2 flex flex-wrap items-center gap-x-1 gap-y-2 p-2">
+        <ul className="mb-6 flex flex-wrap items-center gap-x-1 gap-y-2 p-2">
           <li className="rounded-full bg-amber-200 px-2 py-px font-accent text-sm font-light">
             Next.js
           </li>
@@ -228,7 +228,7 @@ export default function MythicalOdysseyPage() {
           </p>
         </MediaBoundary>
 
-        <div className="mb-2 grid min-h-24 snap-x snap-mandatory auto-cols-[80%] grid-flow-col gap-3 overflow-x-auto p-2">
+        <div className="mb-6 grid min-h-24 snap-x snap-mandatory auto-cols-[80%] grid-flow-col gap-3 overflow-x-auto p-2">
           {[
             "/mo/topup.avif",
             "/mo/topup-options.avif",

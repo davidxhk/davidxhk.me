@@ -30,7 +30,7 @@ export default function BingoOnDemandPage() {
           </p>
         </MediaBoundary>
 
-        <div className="mb-2 grid snap-x snap-mandatory auto-cols-[80%] grid-flow-col gap-3 overflow-x-auto p-2">
+        <div className="mb-6 grid snap-x snap-mandatory auto-cols-[80%] grid-flow-col gap-3 overflow-x-auto p-2">
           {[
             "/bingo/register.avif",
             "/bingo/login.avif",
