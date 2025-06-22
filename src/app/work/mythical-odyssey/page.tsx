@@ -19,7 +19,7 @@ export default function MythicalOdysseyPage() {
         title="Mythical Odyssey"
         className="mb-8 bg-[url(/mo/banner.avif)] bg-cover bg-center bg-no-repeat 2xl:bg-contain"
         created={1749447021315}
-        lastUpdated={1750432769351}
+        lastUpdated={1750608710311}
       />
 
       <main className="mx-auto mb-8 w-full max-w-3xl px-6">
@@ -65,15 +65,14 @@ export default function MythicalOdysseyPage() {
 
         <p className="mb-6">
           To start off, I asked the question, “what is the happy path of the web
-          store?” It can be a useful way to identify functional requirements.
-          After discussion, I came up with a flowchart to illustrate the happy
-          path.
+          store?” After discussion, I came up with a flowchart to illustrate the
+          main use case of the web store.
         </p>
 
         <figure className="mb-6">
           <div className="relative left-1/2 mb-1 w-dvw -translate-x-1/2 px-8">
             <div className="flex justify-center-safe overflow-x-auto">
-              <div className="h-32 flex-none">
+              <div className="h-36 flex-none py-6">
                 <Image
                   alt=""
                   src="/mo/happy-path.svg"
@@ -183,6 +182,75 @@ export default function MythicalOdysseyPage() {
             </ol>
           </li>
         </ol>
+
+        <p className="mb-6">
+          After defining the functional and non-functional requirements, I
+          started thinking about how to design the user interface to achieve the
+          desired outcomes.
+        </p>
+
+        <Separator />
+
+        <h2 className="mt-8 mb-4 font-accent text-3xl font-light">
+          Creating product ideas
+        </h2>
+
+        <p className="mb-6">
+          To get a better understanding of some of the existing products in this
+          space, I conducted market research and found inspiration from the web
+          stores of{" "}
+          <a
+            href="https://pay.gaming.com/xy/index"
+            target="_blank"
+            className="whitespace-nowrap text-indigo-600 underline-offset-4 hover:underline active:text-rose-600 active:underline"
+          >
+            Journey{" "}
+            <span className="whitespace-nowrap">
+              Renewed
+              <ExternalIcon className="inline size-4 align-text-top" />
+            </span>
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://store.farlightgames.com/afkjourney/global"
+            target="_blank"
+            className="whitespace-nowrap text-indigo-600 underline-offset-4 hover:underline active:text-rose-600 active:underline"
+          >
+            AFK{" "}
+            <span className="whitespace-nowrap">
+              Journey
+              <ExternalIcon className="inline size-4 align-text-top" />
+            </span>
+          </a>
+          .
+        </p>
+
+        <p className="mb-6">
+          With our product goals in mind, I came up with a quick{" "}
+          <b>low-fidelity prototype</b> to test ideas and gather feedback from
+          the creative designer and product manager. After several rounds of
+          iteration, we settled on a design that satisfied all our requirements.
+        </p>
+
+        <figure className="mb-6">
+          <div className="relative left-1/2 mb-1 w-dvw -translate-x-1/2 px-8">
+            <div className="flex justify-center-safe overflow-x-auto">
+              <div className="h-96 flex-none">
+                <Image
+                  alt=""
+                  src="/mo/login-flow.svg"
+                  width={0}
+                  height={0}
+                  draggable={false}
+                  className="h-full w-auto object-cover select-none"
+                />
+              </div>
+            </div>
+          </div>
+          <figcaption className="text-center font-accent text-sm font-light text-gray-500 italic">
+            Figure 2: Mockup of the web store login flow
+          </figcaption>
+        </figure>
 
         <Separator />
 
