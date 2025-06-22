@@ -39,14 +39,14 @@ export default function Home() {
           that have been used by thousands of people: from a{" "}
           <Link
             href="/work/mythical-odyssey"
-            className="text-indigo-600 underline-offset-4 hover:underline focus-visible:underline active:text-rose-600 active:underline"
+            className="text-indigo-600 underline-offset-4 hover:underline focus:outline-offset-4 focus-visible:underline active:text-rose-600 active:underline"
           >
             gaming web store
           </Link>{" "}
           to a{" "}
           <Link
             href="/work/bingo-on-demand"
-            className="text-indigo-600 underline-offset-4 hover:underline focus-visible:underline active:text-rose-600 active:underline"
+            className="text-indigo-600 underline-offset-4 hover:underline focus:outline-offset-4 focus-visible:underline active:text-rose-600 active:underline"
           >
             customer verification dashboard
           </Link>
@@ -142,7 +142,7 @@ export default function Home() {
           <a
             href="https://linkedin.com/in/davidxhk"
             target="_blank"
-            className="whitespace-nowrap text-indigo-600 underline-offset-4 hover:underline focus-visible:underline active:text-rose-600 active:underline"
+            className="whitespace-nowrap text-indigo-600 underline-offset-4 hover:underline focus:outline-offset-4 focus-visible:underline active:text-rose-600 active:underline"
           >
             LinkedIn
             <ExternalIcon className="inline size-4 align-text-top" />
