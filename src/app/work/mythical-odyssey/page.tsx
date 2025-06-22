@@ -19,7 +19,7 @@ export default function MythicalOdysseyPage() {
         title="Mythical Odyssey"
         className="mb-8 bg-[url(/mo/banner.avif)] bg-cover bg-center bg-no-repeat 2xl:bg-contain"
         created={1749447021315}
-        lastUpdated={1750608710311}
+        lastUpdated={1750610214899}
       />
 
       <main className="mx-auto mb-8 w-full max-w-3xl px-6">
@@ -40,7 +40,7 @@ export default function MythicalOdysseyPage() {
         </p>
 
         <p className="mb-6">
-          At the time, the game was just released, and the company wanted to
+          At the time, the game had just released, and the company wanted to
           bypass in-app purchase fees. As the web frontend engineer, I was
           tasked to build a{" "}
           <a
