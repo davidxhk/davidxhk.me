@@ -39,14 +39,14 @@ export default function Home() {
           that have been used by thousands of people: from a{" "}
           <Link
             href="/work/mythical-odyssey"
-            className="text-indigo-600 underline-offset-4 hover:underline active:text-rose-600 active:underline"
+            className="text-indigo-600 underline-offset-4 hover:underline focus-visible:underline active:text-rose-600 active:underline"
           >
             gaming web store
           </Link>{" "}
           to a{" "}
           <Link
             href="/work/bingo-on-demand"
-            className="text-indigo-600 underline-offset-4 hover:underline active:text-rose-600 active:underline"
+            className="text-indigo-600 underline-offset-4 hover:underline focus-visible:underline active:text-rose-600 active:underline"
           >
             customer verification dashboard
           </Link>
@@ -64,7 +64,7 @@ export default function Home() {
               width={1920}
               height={911}
               draggable={false}
-              className="object-cover transition-all select-none group-hover:scale-105 group-active:scale-105"
+              className="object-cover transition-all select-none group-hover:scale-105 group-focus-visible:scale-105 group-active:scale-105"
             />
 
             <p className="absolute inset-x-0 bottom-0 bg-white/50 px-3 py-4 font-headline text-2xl tracking-tight backdrop-blur-xs text-shadow-md text-shadow-white">
@@ -82,7 +82,7 @@ export default function Home() {
               width={1920}
               height={911}
               draggable={false}
-              className="object-cover transition-all select-none group-hover:scale-105 group-active:scale-105"
+              className="object-cover transition-all select-none group-hover:scale-105 group-focus-visible:scale-105 group-active:scale-105"
             />
 
             <p className="absolute inset-x-0 bottom-0 bg-white/50 px-3 py-4 font-headline text-2xl tracking-tight backdrop-blur-xs text-shadow-md text-shadow-white">
@@ -142,7 +142,7 @@ export default function Home() {
           <a
             href="https://linkedin.com/in/davidxhk"
             target="_blank"
-            className="whitespace-nowrap text-indigo-600 underline-offset-4 hover:underline active:text-rose-600 active:underline"
+            className="whitespace-nowrap text-indigo-600 underline-offset-4 hover:underline focus-visible:underline active:text-rose-600 active:underline"
           >
             LinkedIn
             <ExternalIcon className="inline size-4 align-text-top" />
