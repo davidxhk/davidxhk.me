@@ -19,7 +19,7 @@ export default function MythicalOdysseyPage() {
         title="Mythical Odyssey"
         className="relative mb-8"
         created={1749447021315}
-        lastUpdated={1750610214899}
+        lastUpdated={1750671730081}
       >
         <div className="absolute inset-0">
           <Image
@@ -261,6 +261,26 @@ export default function MythicalOdysseyPage() {
           </div>
           <figcaption className="text-center font-accent text-sm font-light text-gray-500 italic">
             Figure 2: Mockup of the web store login flow
+          </figcaption>
+        </figure>
+
+        <figure className="mb-6">
+          <div className="relative left-1/2 mb-1 w-dvw -translate-x-1/2 px-8">
+            <div className="flex justify-center-safe overflow-x-auto">
+              <div className="h-96 flex-none">
+                <Image
+                  alt=""
+                  src="/mo/purchase-flow.svg"
+                  width={0}
+                  height={0}
+                  draggable={false}
+                  className="h-full w-auto object-cover select-none"
+                />
+              </div>
+            </div>
+          </div>
+          <figcaption className="text-center font-accent text-sm font-light text-gray-500 italic">
+            Figure 3: Mockup of the web store purchase flow
           </figcaption>
         </figure>
 
