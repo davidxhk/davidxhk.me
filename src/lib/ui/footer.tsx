@@ -29,6 +29,7 @@ export function Footer() {
 
           <nav className="flex items-center gap-4 p-2">
             <a
+              aria-label="My Linkedin profile"
               href="https://linkedin.com/in/davidxhk"
               target="_blank"
               className="inline-block text-slate-700 hover:scale-105 focus-visible:scale-105 active:scale-97 active:text-slate-800"
@@ -37,6 +38,7 @@ export function Footer() {
             </a>
 
             <a
+              aria-label="My GitHub repo"
               href="https://github.com/davidxhk"
               target="_blank"
               className="inline-block text-slate-700 hover:scale-105 focus-visible:scale-105 active:scale-97 active:text-slate-800"
