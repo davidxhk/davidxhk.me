@@ -59,7 +59,7 @@ export default function Home() {
             className="group relative w-full max-w-84 overflow-hidden rounded-md border border-slate-800 shadow-sm transition-all active:translate-y-px active:shadow-xs"
           >
             <Image
-              src="/mo/topup.avif"
+              src="/work/mythical-odyssey/topup.avif"
               alt=""
               width={1920}
               height={911}
@@ -77,7 +77,7 @@ export default function Home() {
             className="group relative w-full max-w-84 overflow-hidden rounded-md border border-slate-800 shadow-sm transition-all active:translate-y-px active:shadow-xs"
           >
             <Image
-              src="/bingo/project-list.avif"
+              src="/work/bingo-on-demand/project-list.avif"
               alt=""
               width={1920}
               height={911}

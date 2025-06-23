@@ -11,7 +11,7 @@ export function Footer() {
           <div className="mb-4 inline-block">
             <Image
               alt="My avatar"
-              src="/me.avif"
+              src="/avatar.avif"
               width={1600}
               height={1600}
               className="size-40 rounded-full border border-slate-800"

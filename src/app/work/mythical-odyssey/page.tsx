@@ -25,7 +25,7 @@ export default function MythicalOdysseyPage() {
           <Image
             priority
             alt=""
-            src="/mo/banner.avif"
+            src="/work/mythical-odyssey/banner.avif"
             width={1920}
             height={400}
             draggable={false}
@@ -37,7 +37,7 @@ export default function MythicalOdysseyPage() {
       <main className="mx-auto mb-8 w-full max-w-3xl px-6">
         <p className="mb-6">
           <a
-            href="https://mo.skyvanillagames.com"
+            href="https:/..skyvanillagames.com"
             target="_blank"
             className="whitespace-nowrap text-indigo-600 underline-offset-4 hover:underline focus:outline-offset-4 focus-visible:underline active:text-rose-600 active:underline"
           >
@@ -56,7 +56,7 @@ export default function MythicalOdysseyPage() {
           bypass in-app purchase fees. As the web frontend engineer, I was
           tasked to build a{" "}
           <a
-            href="https://mo.skyvanillagames.com/topup"
+            href="https:/..skyvanillagames.com/topup"
             target="_blank"
             className="whitespace-nowrap text-indigo-600 underline-offset-4 hover:underline focus:outline-offset-4 focus-visible:underline active:text-rose-600 active:underline"
           >
@@ -87,7 +87,7 @@ export default function MythicalOdysseyPage() {
               <div className="h-36 flex-none py-6">
                 <Image
                   alt=""
-                  src="/mo/happy-path.svg"
+                  src="/work/mythical-odyssey/happy-path.svg"
                   width={0}
                   height={0}
                   draggable={false}
@@ -250,7 +250,7 @@ export default function MythicalOdysseyPage() {
               <div className="h-96 flex-none">
                 <Image
                   alt=""
-                  src="/mo/login-flow.svg"
+                  src="/work/mythical-odyssey/login-flow.svg"
                   width={0}
                   height={0}
                   draggable={false}
@@ -270,7 +270,7 @@ export default function MythicalOdysseyPage() {
               <div className="h-96 flex-none">
                 <Image
                   alt=""
-                  src="/mo/purchase-flow.svg"
+                  src="/work/mythical-odyssey/purchase-flow.svg"
                   width={0}
                   height={0}
                   draggable={false}
@@ -330,20 +330,20 @@ export default function MythicalOdysseyPage() {
 
         <div className="mb-6 grid min-h-24 snap-x snap-mandatory auto-cols-[80%] grid-flow-col gap-3 overflow-x-auto p-2">
           {[
-            "/mo/topup.avif",
-            "/mo/topup-options.avif",
-            "/mo/terms-and-conditions.avif",
-            "/mo/topup-footer.avif",
-            "/mo/region-select.avif",
-            "/mo/lang-select.avif",
-            "/mo/login.avif",
-            "/mo/select-character.avif",
-            "/mo/product.avif",
-            "/mo/purchase.avif",
-            "/mo/order-created.avif",
-            "/mo/order-completed.avif",
-            "/mo/nav-menu.avif",
-            "/mo/topup-history.avif",
+            "/work/mythical-odyssey/topup.avif",
+            "/work/mythical-odyssey/topup-options.avif",
+            "/work/mythical-odyssey/terms-and-conditions.avif",
+            "/work/mythical-odyssey/topup-footer.avif",
+            "/work/mythical-odyssey/region-select.avif",
+            "/work/mythical-odyssey/lang-select.avif",
+            "/work/mythical-odyssey/login.avif",
+            "/work/mythical-odyssey/select-character.avif",
+            "/work/mythical-odyssey/product.avif",
+            "/work/mythical-odyssey/purchase.avif",
+            "/work/mythical-odyssey/order-created.avif",
+            "/work/mythical-odyssey/order-completed.avif",
+            "/work/mythical-odyssey/nav-menu.avif",
+            "/work/mythical-odyssey/topup-history.avif",
           ].map((path, i) => (
             <Image
               key={i}

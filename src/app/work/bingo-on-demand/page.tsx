@@ -24,7 +24,7 @@ export default function BingoOnDemandPage() {
           <Image
             priority
             alt=""
-            src="/bingo/banner.avif"
+            src="/work/bingo-on-demand/banner.avif"
             width={1920}
             height={400}
             draggable={false}
@@ -44,16 +44,16 @@ export default function BingoOnDemandPage() {
 
         <div className="mb-6 grid snap-x snap-mandatory auto-cols-[80%] grid-flow-col gap-3 overflow-x-auto p-2">
           {[
-            "/bingo/register.avif",
-            "/bingo/login.avif",
-            "/bingo/project-list.avif",
-            "/bingo/project.avif",
-            "/bingo/create-new-project.avif",
-            "/bingo/send-unique-invite.avif",
-            "/bingo/account.avif",
-            "/bingo/billing-history.avif",
-            "/bingo/team.avif",
-            "/bingo/invite-template.avif",
+            "/work/bingo-on-demand/register.avif",
+            "/work/bingo-on-demand/login.avif",
+            "/work/bingo-on-demand/project-list.avif",
+            "/work/bingo-on-demand/project.avif",
+            "/work/bingo-on-demand/create-new-project.avif",
+            "/work/bingo-on-demand/send-unique-invite.avif",
+            "/work/bingo-on-demand/account.avif",
+            "/work/bingo-on-demand/billing-history.avif",
+            "/work/bingo-on-demand/team.avif",
+            "/work/bingo-on-demand/invite-template.avif",
           ].map((path, i) => (
             <Image
               key={i}
