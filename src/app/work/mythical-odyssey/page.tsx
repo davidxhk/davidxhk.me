@@ -332,7 +332,6 @@ export default function MythicalOdysseyPage() {
               width={1920}
               height={911}
               draggable={false}
-              priority={i === 0}
               className="snap-center snap-always rounded-lg border border-slate-800 shadow-md select-none"
             />
           ))}

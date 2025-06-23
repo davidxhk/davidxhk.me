@@ -10,7 +10,6 @@ export function Footer() {
         <div className="mx-auto w-full max-w-3xl px-6 py-8">
           <div className="mb-4 inline-block">
             <Image
-              priority
               alt="My avatar"
               src="/me.avif"
               width={1600}
