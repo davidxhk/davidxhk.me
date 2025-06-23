@@ -17,10 +17,22 @@ export default function MythicalOdysseyPage() {
     <>
       <Header
         title="Mythical Odyssey"
-        className="mb-8 bg-[url(/mo/banner.avif)] bg-cover bg-center bg-no-repeat 2xl:bg-contain"
+        className="relative mb-8"
         created={1749447021315}
         lastUpdated={1750610214899}
-      />
+      >
+        <div className="absolute inset-0">
+          <Image
+            priority
+            alt=""
+            src="/mo/banner.avif"
+            width={1920}
+            height={400}
+            draggable={false}
+            className="size-full object-cover select-none 2xl:object-contain"
+          />
+        </div>
+      </Header>
 
       <main className="mx-auto mb-8 w-full max-w-3xl px-6">
         <p className="mb-6">

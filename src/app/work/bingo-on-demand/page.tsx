@@ -16,10 +16,22 @@ export default function BingoOnDemandPage() {
     <>
       <Header
         title="BINGO on-Demand"
-        className="mb-8 bg-[url(/bingo/banner.avif)] bg-cover bg-center bg-no-repeat 2xl:bg-contain"
+        className="relative mb-8"
         created={1749447021315}
         lastUpdated={1749550686643}
-      />
+      >
+        <div className="absolute inset-0">
+          <Image
+            priority
+            alt=""
+            src="/bingo/banner.avif"
+            width={1920}
+            height={400}
+            draggable={false}
+            className="size-full object-cover select-none 2xl:object-contain"
+          />
+        </div>
+      </Header>
 
       <main className="mx-auto mb-8 w-full max-w-3xl px-6">
         <h2 className="mt-8 mb-4 font-accent text-3xl font-light">Showcase</h2>
