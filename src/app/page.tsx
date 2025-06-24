@@ -12,7 +12,7 @@ export default function Home() {
         title="Building better web products for people"
         className="mb-8 bg-gradient-to-br from-teal-600 via-orange-300 to-rose-600"
         created={1749019230400}
-        lastUpdated={1750607427419}
+        lastUpdated={1750751427419}
       />
 
       <main className="mx-auto mb-8 w-full max-w-3xl px-6">
