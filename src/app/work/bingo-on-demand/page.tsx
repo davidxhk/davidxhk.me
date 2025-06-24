@@ -7,7 +7,7 @@ import { MediaBoundary } from "@/lib/ui/media-boundary"
 import { Separator } from "@/lib/ui/separator"
 
 export const metadata: Metadata = {
-  title: "BINGO on-Demand | David Xie",
+  title: "SaaS Admin Panel | David Xie",
   description: "My work on the BINGO on-Demand Customer Verification Dashboard",
 }
 

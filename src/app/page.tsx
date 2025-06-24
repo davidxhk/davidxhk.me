@@ -51,12 +51,12 @@ export default function Home() {
           >
             gaming web store
           </Link>{" "}
-          to a{" "}
+          to an{" "}
           <Link
             href="/work/bingo-on-demand"
             className="text-indigo-600 underline-offset-4 hover:underline focus:outline-offset-4 focus-visible:underline active:text-rose-600 active:underline"
           >
-            customer verification dashboard
+            SaaS admin panel
           </Link>
           .
         </p>
