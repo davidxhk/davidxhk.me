@@ -39,7 +39,7 @@ export default function MythicalOdysseyPage() {
           <a
             href="https://mo.skyvanillagames.com"
             target="_blank"
-            className="whitespace-nowrap text-indigo-600 underline-offset-4 hover:underline focus:outline-offset-4 focus-visible:underline active:text-rose-600 active:underline"
+            className="text-indigo-600 underline-offset-4 hover:underline focus:outline-offset-4 focus-visible:underline active:text-rose-600 active:underline"
           >
             Mythical{" "}
             <span className="whitespace-nowrap">
@@ -58,7 +58,7 @@ export default function MythicalOdysseyPage() {
           <a
             href="https://mo.skyvanillagames.com/topup"
             target="_blank"
-            className="whitespace-nowrap text-indigo-600 underline-offset-4 hover:underline focus:outline-offset-4 focus-visible:underline active:text-rose-600 active:underline"
+            className="text-indigo-600 underline-offset-4 hover:underline focus:outline-offset-4 focus-visible:underline active:text-rose-600 active:underline"
           >
             web{" "}
             <span className="whitespace-nowrap">
@@ -214,7 +214,7 @@ export default function MythicalOdysseyPage() {
           <a
             href="https://pay.gaming.com/xy/index"
             target="_blank"
-            className="whitespace-nowrap text-indigo-600 underline-offset-4 hover:underline focus:outline-offset-4 focus-visible:underline active:text-rose-600 active:underline"
+            className="text-indigo-600 underline-offset-4 hover:underline focus:outline-offset-4 focus-visible:underline active:text-rose-600 active:underline"
           >
             Journey{" "}
             <span className="whitespace-nowrap">
@@ -226,7 +226,7 @@ export default function MythicalOdysseyPage() {
           <a
             href="https://store.farlightgames.com/afkjourney/global"
             target="_blank"
-            className="whitespace-nowrap text-indigo-600 underline-offset-4 hover:underline focus:outline-offset-4 focus-visible:underline active:text-rose-600 active:underline"
+            className="text-indigo-600 underline-offset-4 hover:underline focus:outline-offset-4 focus-visible:underline active:text-rose-600 active:underline"
           >
             AFK{" "}
             <span className="whitespace-nowrap">
