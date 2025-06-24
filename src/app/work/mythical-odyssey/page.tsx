@@ -19,7 +19,7 @@ export default function MythicalOdysseyPage() {
         title="Mythical Odyssey"
         className="relative mb-8"
         created={1749447021315}
-        lastUpdated={1750757754376}
+        lastUpdated={1750758008087}
       >
         <div className="absolute inset-0">
           <Image
@@ -76,7 +76,7 @@ export default function MythicalOdysseyPage() {
         </h2>
 
         <p className="mb-6">
-          To start off, I asked the question, “what is the happy path of the web
+          To start off, I asked the question, “What is the happy path of the web
           store?” After discussion, I came up with a flowchart to illustrate its
           main use case.
         </p>
@@ -104,8 +104,7 @@ export default function MythicalOdysseyPage() {
         <p className="mb-6">
           From the happy path, I identified two core flows: the login flow and
           the purchase flow. These key features served as starting points for
-          further discussions to define the functional requirements of the web
-          store.
+          further discussions to define the web store’s functional requirements.
         </p>
 
         <h3 className="mt-8 mb-4 font-accent text-2xl font-light">
@@ -166,10 +165,9 @@ export default function MythicalOdysseyPage() {
         </ol>
 
         <p className="mb-6">
-          Next, I asked, “what are some nice-to-haves?” and “what security
-          considerations are there?” These questions helped me to understand the
-          company’s product goals, and identify the non-functional requirements
-          of the web store.
+          Next, I asked, “What are some nice-to-haves?” and “What security
+          considerations are there?” These questions helped me identify and
+          understand the web store’s non-functional requirements.
         </p>
 
         <h3 className="mt-8 mb-4 font-accent text-2xl font-light">
