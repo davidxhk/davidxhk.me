@@ -19,7 +19,7 @@ export default function MythicalOdysseyPage() {
         title="Mythical Odyssey"
         className="relative mb-8"
         created={1749447021315}
-        lastUpdated={1750751459937}
+        lastUpdated={1750757574209}
       >
         <div className="absolute inset-0">
           <Image
@@ -72,7 +72,7 @@ export default function MythicalOdysseyPage() {
         <Separator />
 
         <h2 className="mt-8 mb-4 font-accent text-3xl font-light">
-          Defining product goals
+          Defining the goals
         </h2>
 
         <p className="mb-6">
@@ -104,8 +104,8 @@ export default function MythicalOdysseyPage() {
         <p className="mb-6">
           From the happy path, I identified two core flows: the login flow and
           the purchase flow. These key features served as starting points for
-          further discussions to define all the functional requirements of the
-          web store.
+          further discussions to define the functional requirements of the web
+          store.
         </p>
 
         <h3 className="mt-8 mb-4 font-accent text-2xl font-light">
@@ -196,15 +196,14 @@ export default function MythicalOdysseyPage() {
         </ol>
 
         <p className="mb-6">
-          After defining the functional and non-functional requirements, I
-          started thinking about how to design the user interface to achieve the
-          desired outcomes.
+          After defining the product goals, I started thinking about how to
+          design the user interface to achieve the desired outcomes.
         </p>
 
         <Separator />
 
         <h2 className="mt-8 mb-4 font-accent text-3xl font-light">
-          Shaping UI design
+          Shaping the UI
         </h2>
 
         <p className="mb-6">
@@ -292,9 +291,9 @@ export default function MythicalOdysseyPage() {
         </p>
 
         <p className="mb-6">
-          As the high-fidelity design started taking shape, I turned my
-          attention to the engineering aspects of the web store, focusing on the
-          high-level architecture and the data considerations.
+          As the user interface began to take shape, I shifted focus to the
+          engineering aspects of the web store, working out the data and
+          planning the high-level architecture.
         </p>
 
         <Separator />
