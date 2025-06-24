@@ -317,19 +317,19 @@ export default function MythicalOdysseyPage() {
           </li>
 
           <li className="rounded-full bg-cyan-200 px-2 py-px font-accent text-sm font-light">
-            NextAuth
+            Payload CMS
           </li>
 
           <li className="rounded-full bg-blue-200 px-2 py-px font-accent text-sm font-light">
-            next-intl
+            NextAuth
           </li>
 
           <li className="rounded-full bg-fuchsia-200 px-2 py-px font-accent text-sm font-light">
-            nuqs
+            next-intl
           </li>
 
           <li className="rounded-full bg-rose-200 px-2 py-px font-accent text-sm font-light">
-            Payload CMS
+            nuqs
           </li>
         </ul>
 
