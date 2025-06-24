@@ -19,7 +19,7 @@ export default function MythicalOdysseyPage() {
         title="Mythical Odyssey"
         className="relative mb-8"
         created={1749447021315}
-        lastUpdated={1750671730081}
+        lastUpdated={1750751459937}
       >
         <div className="absolute inset-0">
           <Image
@@ -166,10 +166,10 @@ export default function MythicalOdysseyPage() {
         </ol>
 
         <p className="mb-6">
-          Next, I asked, “what are some nice-to-haves?”, “what should be
-          optimised?”, and “what security considerations are there?” These
-          questions helped me to understand the company’s product goals, and
-          identify the non-functional requirements of the web store.
+          Next, I asked, “what are some nice-to-haves?” and “what security
+          considerations are there?” These questions helped me to understand the
+          company’s product goals, and identify the non-functional requirements
+          of the web store.
         </p>
 
         <h3 className="mt-8 mb-4 font-accent text-2xl font-light">
@@ -204,12 +204,12 @@ export default function MythicalOdysseyPage() {
         <Separator />
 
         <h2 className="mt-8 mb-4 font-accent text-3xl font-light">
-          Creating product ideas
+          Shaping UI design
         </h2>
 
         <p className="mb-6">
-          To get a better understanding of some of the existing products in this
-          space, I conducted market research and found inspiration from the web
+          To get a better understanding of existing products in this space, I
+          conducted some market research, and found inspiration from the web
           stores of{" "}
           <a
             href="https://pay.gaming.com/xy/index"
@@ -238,10 +238,10 @@ export default function MythicalOdysseyPage() {
         </p>
 
         <p className="mb-6">
-          With our product goals in mind, I came up with a quick{" "}
-          <b>low-fidelity prototype</b> to test ideas and gather feedback from
-          the creative designer and product manager. After several rounds of
-          iteration, we settled on a design that satisfied all our requirements.
+          I came up with a quick <b>low-fidelity prototype</b> to test ideas and
+          gather feedback from the creative designer and product manager. After
+          several rounds of iteration, we settled on a design that satisfied all
+          our requirements.
         </p>
 
         <figure className="mb-6">
@@ -283,6 +283,19 @@ export default function MythicalOdysseyPage() {
             Figure 3: Mockup of the web store purchase flow
           </figcaption>
         </figure>
+
+        <p className="mb-6">
+          I also partnered with the creative designer to develop a{" "}
+          <b>component library</b> as a foundation for the web store’s design
+          system. This became a common ground that improved collaboration while
+          ensuring a consistent, cohesive user interface.
+        </p>
+
+        <p className="mb-6">
+          As the high-fidelity design started taking shape, I turned my
+          attention to the engineering aspects of the web store, focusing on the
+          high-level architecture and the data considerations.
+        </p>
 
         <Separator />
 
