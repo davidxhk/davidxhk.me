@@ -19,7 +19,7 @@ export default function MythicalOdysseyPage() {
         title="Mythical Odyssey"
         className="relative mb-8"
         created={1749447021315}
-        lastUpdated={1750757574209}
+        lastUpdated={1750757754376}
       >
         <div className="absolute inset-0">
           <Image
@@ -77,8 +77,8 @@ export default function MythicalOdysseyPage() {
 
         <p className="mb-6">
           To start off, I asked the question, “what is the happy path of the web
-          store?” After discussion, I came up with a flowchart to illustrate the
-          main use case of the web store.
+          store?” After discussion, I came up with a flowchart to illustrate its
+          main use case.
         </p>
 
         <figure className="mb-6">
