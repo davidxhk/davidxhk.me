@@ -39,9 +39,9 @@ export default function Home() {
           <a
             href="https://www.coinbase.com/learn/crypto-taxes/what-is-know-your-customer-kyc"
             target="_blank"
-            className="cursor-help whitespace-nowrap text-indigo-600 underline-offset-4 hover:underline focus:outline-offset-4 focus-visible:underline active:text-rose-600 active:underline"
+            className="whitespace-nowrap text-indigo-600 underline-offset-4 hover:underline focus:outline-offset-4 focus-visible:underline active:text-rose-600 active:underline"
           >
-            KYC
+            <abbr title="know your customer">KYC</abbr>
             <ExternalIcon className="inline size-4 align-text-top" />
           </a>{" "}
           software that have been used by thousands of people: from a{" "}
