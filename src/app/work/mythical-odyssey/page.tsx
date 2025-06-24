@@ -19,7 +19,7 @@ export default function MythicalOdysseyPage() {
         title="Mythical Odyssey"
         className="relative mb-8"
         created={1749447021315}
-        lastUpdated={1750758008087}
+        lastUpdated={1750758530790}
       >
         <div className="absolute inset-0">
           <Image
@@ -52,8 +52,8 @@ export default function MythicalOdysseyPage() {
         </p>
 
         <p className="mb-6">
-          At the time, the game had just released, and the company wanted to
-          bypass in-app purchase fees. As the web frontend engineer, I was
+          At the time, the game had just been released, and the company wanted
+          to bypass in-app purchase fees. As the web frontend engineer, I was
           tasked to build a{" "}
           <a
             href="https://mo.skyvanillagames.com/topup"
