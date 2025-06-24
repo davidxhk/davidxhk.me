@@ -8,7 +8,7 @@ import { MediaBoundary } from "@/lib/ui/media-boundary"
 import { Separator } from "@/lib/ui/separator"
 
 export const metadata: Metadata = {
-  title: "Mythical Odyssey | David Xie",
+  title: "Gaming Web Store | David Xie",
   description: "My work on the Mythical Odyssey Official Payment Center",
 }
 
