@@ -37,7 +37,7 @@ export default function MythicalOdysseyPage() {
       <main className="mx-auto mb-8 w-full max-w-3xl px-6">
         <p className="mb-6">
           <a
-            href="https:/..skyvanillagames.com"
+            href="https://mo.skyvanillagames.com"
             target="_blank"
             className="whitespace-nowrap text-indigo-600 underline-offset-4 hover:underline focus:outline-offset-4 focus-visible:underline active:text-rose-600 active:underline"
           >
@@ -56,7 +56,7 @@ export default function MythicalOdysseyPage() {
           bypass in-app purchase fees. As the web frontend engineer, I was
           tasked to build a{" "}
           <a
-            href="https:/..skyvanillagames.com/topup"
+            href="https://mo.skyvanillagames.com/topup"
             target="_blank"
             className="whitespace-nowrap text-indigo-600 underline-offset-4 hover:underline focus:outline-offset-4 focus-visible:underline active:text-rose-600 active:underline"
           >
